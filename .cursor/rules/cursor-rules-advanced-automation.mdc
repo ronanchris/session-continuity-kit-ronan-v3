@@ -1,0 +1,140 @@
+---
+description: "Advanced automation features - Implementation gap detection, auto-blog triggers, and systematic improvements"
+alwaysApply: true
+---
+
+# Advanced Automation - High-Value Features
+
+## Implementation Gap Detection (CRITICAL)
+**Trigger Phrases:**
+```
+"If the system were working, wouldn't X happen?" → IMPLEMENTATION GAP DETECTED
+"Did you just do X because I asked, or is that automatic?" → IMPLEMENTATION GAP DETECTED
+"I don't see Y having been updated" → IMPLEMENTATION GAP DETECTED
+"The system should have done Z automatically" → IMPLEMENTATION GAP DETECTED
+```
+
+**Auto-Response Protocol:**
+1. Acknowledge gap between design and implementation
+2. Document in session-continuity/10-DEVIATION-TRACKING-OPTIMIZED.md
+3. Add corrective action to current session plan
+4. Update relevant cursor rules if needed
+5. Test whether fix actually works automatically
+
+## Auto-Blog Learning Moments (HIGH VALUE)
+**Innovation Triggers** - Auto-offer blog post creation when:
+- User suggests brilliant strategic improvement
+- Breakthrough in AI collaboration methodology discovered
+- Critical implementation gap identified and solved
+- New reusable pattern or framework emerges
+- Meta-learning moment about collaboration itself
+
+**Auto-Prompt:**
+"This insight about [specific innovation] could help others building systematic AI collaboration. Should I add it to session-continuity/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md? I can structure it with challenge, solution, and broader applicability."
+
+**Blog Structure:**
+```markdown
+## [Title]: [Brief Description]
+*Session [N] - [VALIDATED DATE]*
+
+### The Challenge
+[Problem context and situation]
+
+### The Discovery/Solution
+[What breakthrough emerged]
+
+### Why This Matters for Others
+[Universal applicability and lessons]
+
+### Meta-Learning
+[What this teaches about AI collaboration]
+
+### Universal Principle
+[Reusable pattern others can apply]
+```
+
+## Enhanced Session Management
+
+### Auto-Completion Detection
+```
+"That's complete" → Check off current session lens item
+"We've finished X" → Mark X complete (if in active 4-6 items)
+"Successfully implemented Y" → Update session plan status
+"Done with that phase" → Advance to next session lens item
+```
+
+### Deviation Detection & Auto-Documentation
+```
+"Actually, let's..." → DEVIATION DETECTED → Document in deviation tracking
+"Change of plan..." → DEVIATION DETECTED → Update session plan deviations
+"Better approach would be..." → DEVIATION DETECTED → Capture learning
+"Timeline needs to shift..." → DEVIATION DETECTED → Update expectations
+```
+
+### Session Transition Automation
+```
+"Let's wrap up" → Auto-archive session plan → Update current state snapshot
+"Session complete" → Validate all timestamps → Prepare next session context
+"Ready for next session" → Create session entrance prompt with preserved context
+```
+
+## Systematic Learning Capture
+
+### Pattern Recognition Triggers
+- When user repeats successful approach → Suggest adding to problem-solving patterns
+- When new tool integration works well → Suggest adding to AI use cases
+- When communication style evolves → Suggest updating conversational insights
+- When working relationship improves → Suggest updating relationship DNA
+
+### Auto-Template Updates
+- When session plans consistently deviate → Suggest updating session planning template
+- When requirements frequently change → Suggest updating project requirements template
+- When new collaboration patterns emerge → Suggest updating AI collaboration template
+
+## Quality Control Automation
+
+### Context Preservation Checks
+- Verify session lens (4-6 items max) is being applied
+- Confirm token optimization boundaries are maintained
+- Ensure AI interview triggers are working correctly
+- Validate that tool integration is functional
+
+### System Health Monitoring
+- Track if session continuity documents are being updated
+- Monitor whether deviations are being captured systematically
+- Verify that learning moments are being documented
+- Ensure quality standards are being maintained
+
+## Meta-Collaboration Intelligence
+
+### Relationship Evolution Detection
+- Notice when collaboration style becomes more sophisticated
+- Identify when trust levels increase (more delegation possible)
+- Recognize when communication becomes more efficient
+- Detect when problem-solving patterns become more systematic
+
+### Framework Development Recognition
+- When individual solutions become reusable patterns
+- When project-specific approaches become portable frameworks
+- When collaboration insights become universal principles
+- When systematic approaches prove broadly applicable
+
+## Efficiency Optimization Triggers
+
+### Token Usage Optimization
+- Monitor for context bloat and suggest compression
+- Identify opportunities for further session lens refinement
+- Detect when vault boundaries need adjustment
+- Recognize when document sizes exceed efficiency targets
+
+### Workflow Optimization
+- Notice when manual processes could be automated
+- Identify repetitive explanations that could be templated
+- Detect when tool usage could be more systematic
+- Recognize when collaboration could be more efficient
+
+---
+
+**Purpose**: Preserve high-value systematic features while maintaining token efficiency
+**Integration**: Works with optimized system to enhance automation and learning capture
+**Focus**: Implementation gaps, learning moments, and systematic improvements
