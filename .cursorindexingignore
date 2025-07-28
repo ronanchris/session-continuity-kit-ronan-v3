@@ -1,0 +1,46 @@
+# CRITICAL TOKEN PROTECTION
+# Prevents vault indexing explosion (21.6M → manageable)
+
+# === OBSIDIAN VAULT EXCLUSIONS ===
+# Exclude all markdown files by default (vault content)
+*.md
+
+# Obsidian system files
+.obsidian/
+.trash/
+
+# Daily notes and reference materials
+daily-notes/
+reference/
+templates/
+archive/
+attachments/
+assets/
+
+# === ALLOW ACTIVE PROJECT ONLY ===
+# Session continuity documents (essential for AI collaboration)
+!session-continuity/**/*.md
+
+# Current active project files only
+!active-project/**/*.md
+!current-work/**/*.md
+
+# Essential cursor configuration
+!.cursor/
+!.cursorindexingignore
+
+# === DEVELOPMENT EXCLUSIONS ===
+# Standard development ignores
+node_modules/
+.git/
+.env*
+dist/
+build/
+coverage/
+.cache/
+*.log
+
+# === TOKEN OPTIMIZATION NOTES ===
+# This configuration reduces indexing from ~21M tokens to <1M tokens
+# Preserves AI collaboration functionality while eliminating vault overhead
+# Maintains session continuity system while protecting token budget
