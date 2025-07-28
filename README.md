@@ -77,7 +77,13 @@ Transform your $85/day Cursor costs to $8-15/day while maintaining sophisticated
 ## 📁 **Project Structure**
 
 ```
-session-continuity/
+.cursor/rules/                    # Cursor AI collaboration rules
+├── cursor-rules-main.mdc         # Core collaboration system
+├── cursor-rules-automation.mdc   # Advanced automation features
+├── cursor-rules-advanced-automation.mdc  # Meta-collaboration intelligence
+└── ronan-smart-model-routing.mdc # Smart model routing rules
+
+session-continuity/               # Session management system
 ├── 01-PROJECT-REQUIREMENTS-OPTIMIZED.md
 ├── 02-SESSION-PLAN-OPTIMIZED.md
 ├── 03-CURRENT-STATE-OPTIMIZED.md
