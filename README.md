@@ -2,6 +2,27 @@
 
 A sophisticated AI collaboration framework designed to transform expensive Cursor AI costs while preserving 100% of advanced functionality through surgical token optimization.
 
+## 🧠 Purpose of the Session Continuity System for Cursor
+
+This system is designed to create **persistent, structured memory inside Cursor**, enabling you to build and reuse deep context across editing sessions, projects, and strategic documents.
+
+At its core, the system transforms your Obsidian-style vault into a **memory-aware workspace** by:
+
+### 🎯 Key Goals
+
+- **Simulating memory**: Using `session-id`, `linked-notes`, and summaries in frontmatter, Cursor can recognize anchor files and recall them intelligently.
+- **Enabling reuse**: With block IDs and Obsidian-style embeds, you build modular, live-referenced notes that can be updated once and echoed everywhere.
+- **Controlling model behavior**: Smart rules interpret metadata (like `context-priority`) to automatically route complex tasks to higher-capacity models.
+- **Navigating with intent**: A centralized session index helps both you and Cursor understand which documents are active, strategic, or linked.
+- **Scaling understanding**: A README file serves as a protocol layer, training Cursor (and future collaborators) on how to think with your system.
+
+### ⚙️ What It Changes About Working in Cursor
+
+- Files become **semantic memory nodes**, not just static documents.
+- Model selection becomes **context-sensitive**, not manual guesswork.
+- Editing becomes **intentional and layered**, not reactive or fragmented.
+- Your vault becomes **an intelligent system**, not just a collection of files.
+
 ## 🎯 **Mission**
 
 Transform your $85/day Cursor costs to $8-15/day while maintaining sophisticated AI collaboration capabilities through revolutionary token optimization techniques.
