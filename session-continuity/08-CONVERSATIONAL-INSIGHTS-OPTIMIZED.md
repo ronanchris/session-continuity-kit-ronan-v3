@@ -1,11 +1,15 @@
 ---
-template: conversational-insights
-version: 2.0-optimized
-collaboration_style: {{user_style}}
-last_updated: {{date}}
+session-id: communication-intelligence
+linked-notes:
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md
+  - 09-AI-USE-CASES-OPTIMIZED.md
+context-priority: high
+summary: >
+  Analyzes and documents the nuanced communication patterns, linguistic strategies, and collaborative dialogue techniques that enhance the effectiveness of human-AI interaction and knowledge transfer.
 ---
 
-# Conversational Insights - {{project_name}}
+# Conversational Insights Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Capture collaboration patterns and relationship dynamics through interview about communication preferences, working style, and effective partnership patterns. -->
 

@@ -1,11 +1,15 @@
 ---
-template: ai-use-cases
-version: 2.0-optimized
-project_focus: {{primary_tools}}
-last_updated: {{date}}
+session-id: ai-application-strategy
+linked-notes:
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 08-CONVERSATIONAL-INSIGHTS-OPTIMIZED.md
+  - 10-DEVIATION-TRACKING-OPTIMIZED.md
+context-priority: high
+summary: >
+  Systematically documents and categorizes the most effective AI application strategies, innovative use cases, and strategic deployment approaches that maximize the value of AI collaboration across different contexts.
 ---
 
-# AI Use Cases - {{project_name}}
+# AI Use Cases Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Document effective AI collaboration scenarios through interview about successful patterns, tool guidance, and proven use cases. Focus on systematic applications with your specific tools. -->
 

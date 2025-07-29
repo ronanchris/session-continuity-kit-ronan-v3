@@ -1,11 +1,15 @@
 ---
-template: problem-solving-patterns
-version: 2.0-optimized
-domain: {{project_domain}}
-last_updated: {{date}}
+session-id: problem-solving-strategy
+linked-notes:
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 06-WORKING-RELATIONSHIP-DNA-OPTIMIZED.md
+  - 08-CONVERSATIONAL-INSIGHTS-OPTIMIZED.md
+context-priority: high
+summary: >
+  Captures and systematizes the core problem-solving approaches, decision-making patterns, and strategic reasoning techniques that define the unique collaborative problem-solving methodology.
 ---
 
-# Problem-Solving Patterns - {{project_name}}
+# Problem Solving Patterns Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Set up proven methodologies through interview about problem-solving approaches, systematic methods, and successful patterns. Document surgical approach and iterative techniques. -->
 

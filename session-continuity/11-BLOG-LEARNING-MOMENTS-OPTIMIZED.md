@@ -1,12 +1,15 @@
 ---
-template: blog-learning-moments
-version: 2.0-optimized
-audience: {{target_audience}}
-focus_areas: {{learning_themes}}
-last_updated: {{date}}
+session-id: knowledge-amplification
+linked-notes:
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 10-DEVIATION-TRACKING-OPTIMIZED.md
+  - 12-SYSTEM-TEST-PLAN-OPTIMIZED.md
+context-priority: high
+summary: >
+  Captures and transforms breakthrough insights, innovative collaboration moments, and strategic learnings into shareable, replicable knowledge artifacts that can inspire and guide future AI collaboration efforts.
 ---
 
-# Blog Learning Moments - {{project_name}}
+# Blog Learning Moments Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Set up learning blog through interview about breakthrough capture preferences, audience, and insight documentation approach. Create systematic knowledge sharing framework. -->
 

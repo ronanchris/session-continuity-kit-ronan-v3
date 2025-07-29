@@ -1,11 +1,15 @@
 ---
-template: deviation-tracking-protocol
-version: 2.0-optimized
-project_context: {{project_type}}
-last_updated: {{date}}
+session-id: learning-adaptation
+linked-notes:
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 09-AI-USE-CASES-OPTIMIZED.md
+  - 11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md
+context-priority: high
+summary: >
+  Implements a systematic approach to tracking, analyzing, and learning from deviations in the collaboration process, enabling continuous improvement and adaptive intelligence in human-AI interactions.
 ---
 
-# Deviation Tracking Protocol - {{project_name}}
+# Deviation Tracking Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Set up deviation learning system through interview about change patterns, plan adjustments, and learning capture preferences. Focus on turning deviations into systematic improvements. -->
 
