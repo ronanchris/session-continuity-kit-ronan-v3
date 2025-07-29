@@ -41,7 +41,7 @@ cursor-rules-automation.md    # Advanced features & triggers
 ```
 **AI Interview Triggers**: HTML comment blocks enable guided customization
 
-### Step 4: Validation & Testing
+### Step 4: Validation & Testing^deployment-validation-checklist
 - [ ] Cursor recognizes new rules (restart if needed)
 - [ ] .cursorindexingignore excludes vault content
 - [ ] AI interview triggers activate in templates
@@ -65,13 +65,13 @@ cursor-rules-automation.md    # Advanced features & triggers
 
 ## 🔧 CUSTOMIZATION PROTOCOLS
 
-### Project-Specific Setup
+### Project-Specific Setup^project-specific-setup
 1. **Run AI Interview Triggers**: Let HTML comments guide customization
 2. **Configure Tool Integration**: Set up notion tools, metadata management
 3. **Establish Session Boundaries**: Define active project scope
 4. **Optimize Context Size**: Compress frequent-load documents <5KB
 
-### Multi-Project Deployment
+### Multi-Project Deployment^multi-project-deployment
 - **Repository Cloning**: Copy entire system to new projects
 - **Template Adaptation**: Use AI interview triggers for customization
 - **Vault Boundaries**: Configure .cursorindexingignore per project
@@ -79,14 +79,14 @@ cursor-rules-automation.md    # Advanced features & triggers
 
 ## 🎯 QUALITY ASSURANCE
 
-### Validation Checklist
+### Validation Checklist^quality-assurance-checklist
 - [ ] **Token Monitoring**: Verify dramatic cost reduction
 - [ ] **Functionality Testing**: All templates customize properly
 - [ ] **Tool Integration**: Confirm all tools work as expected
 - [ ] **Session Lens**: 4-6 item focus delivering 67% efficiency
 - [ ] **AI Interview System**: HTML triggers enable guided setup
 
-### Troubleshooting Common Issues
+### Troubleshooting Common Issues^troubleshooting-guide
 **High Token Usage**: Check .cursorindexingignore is excluding vault
 **Template Errors**: Verify YAML frontmatter and relative paths
 **Tool Integration Failures**: Confirm tools are properly configured
@@ -94,13 +94,13 @@ cursor-rules-automation.md    # Advanced features & triggers
 
 ## 🚀 ADVANCED OPTIMIZATION
 
-### Power User Features
+### Power User Features^power-user-features
 - **Meta-Collaboration**: Use system to improve collaboration itself
 - **Recursive Enhancement**: Build patterns that optimize the system
 - **Community Contribution**: Document innovations for sharing
 - **Cross-Project Intelligence**: Preserve learnings across deployments
 
-### Enterprise-Grade Features
+### Enterprise-Grade Features^enterprise-features
 - **Safety Protocols**: Backup functionality, file integrity checks
 - **Quality Control**: Date validation, metadata management
 - **Performance Monitoring**: Token usage tracking, efficiency metrics

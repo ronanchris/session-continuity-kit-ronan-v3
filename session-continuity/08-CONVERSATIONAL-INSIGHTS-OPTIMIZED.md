@@ -25,7 +25,7 @@ summary: >
 **What Works**: {{successful_communication}}
 **What Doesn't**: {{friction_sources}}
 
-### **Trust & Verification**
+### **Trust & Verification**^trust-verification
 - **Execution Trust**: {{autonomy_comfort}}
 - **Review Patterns**: {{verification_method}}
 - **Decision Authority**: {{decision_boundaries}}
@@ -33,12 +33,12 @@ summary: >
 
 ## 💡 **Collaboration Insights**
 
-### **Problem-Solving Dynamics**
+### **Problem-Solving Dynamics**^problem-solving-dynamics
 **Your Expertise**: {{domain_contribution}}
 **AI Strengths**: {{ai_value_areas}}
 **Best Together**: {{synergy_scenarios}}
 
-### **Tool Integration Insights**
+### **Tool Integration Insights**^tool-integration-insights
 **With {{primary_tools}}:**
 - **Success Patterns**: {{tool_collaboration_wins}}
 - **Common Challenges**: {{recurring_tool_issues}}
@@ -92,11 +92,11 @@ summary: >
 - {{learning_gain_2}}
 - {{learning_gain_3}}
 
-### **Collaborative Emergence**
+### **Collaborative Emergence**^collaborative-emergence
 - {{joint_discovery_1}}
 - {{joint_discovery_2}}
 
-### **Mental Models**
+### **Mental Models**^mental-models
 - **{{mental_framework_1}}**: {{application_1}}
 - **{{mental_framework_2}}**: {{application_2}}
 - **{{mental_framework_3}}**: {{application_3}}
@@ -137,12 +137,12 @@ summary: >
 - **{{insight_2}}**: {{communication_discovery}}
 - **{{insight_3}}**: {{workflow_understanding}}
 
-### **Replication Patterns**
+### **Replication Patterns**^replication-patterns
 - {{successful_approach_1}}
 - {{successful_approach_2}}
 - {{successful_approach_3}}
 
-### **Anti-Patterns**
+### **Anti-Patterns**^anti-patterns
 - {{avoid_pattern_1}}
 - {{avoid_pattern_2}}
 - {{avoid_pattern_3}}
@@ -154,7 +154,7 @@ summary: >
 **Style**: {{working_style_guidance}}
 **Context**: {{contextual_guidance}}
 
-### **Success Formula**
+### **Success Formula**^collaboration-success-formula
 This collaboration works through {{core_success_elements}}. Continue {{effective_patterns}} and monitor {{key_indicators}}.
 
 ---

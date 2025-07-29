@@ -185,18 +185,17 @@ WORKAROUND: {{temporary_solution}}
 
 ## 📋 **Acceptance Gates**
 
-### **Release Readiness**
-**Gate 1: Core Functionality**
+### **Release Readiness**^release-gate-core
 - [ ] Critical tests pass
 - [ ] Safety systems verified
 - [ ] No critical issues
 
-**Gate 2: Integration Quality**
+**Gate 2: Integration Quality**^release-gate-integration
 - [ ] Integration tests pass
 - [ ] Tool combinations work
 - [ ] End-to-end success
 
-**Gate 3: User Readiness**
+**Gate 3: User Readiness**^release-gate-user
 - [ ] User scenarios pass
 - [ ] Documentation verified
 - [ ] Success rate targets met
@@ -220,26 +219,26 @@ WORKAROUND: {{temporary_solution}}
 
 ## 📋 **Testing Checklist**
 
-### **Pre-Testing**
+### **Pre-Testing**^testing-checklist-pre
 - [ ] Environment prepared
 - [ ] Test data validated
 - [ ] Tools ready
 - [ ] Plan approved
 
-### **Core Testing**
+### **Core Testing**^testing-checklist-core
 - [ ] Functional complete
 - [ ] Integration complete
 - [ ] Safety complete
 - [ ] Performance complete
 - [ ] User scenarios complete
 
-### **Results**
+### **Results**^testing-checklist-results
 - [ ] Tests documented
 - [ ] Issues classified
 - [ ] Reports generated
 - [ ] Readiness assessed
 
-### **Post-Testing**
+### **Post-Testing**^testing-checklist-post
 - [ ] Critical issues resolved
 - [ ] Release decision made
 - [ ] Lessons documented

@@ -15,7 +15,7 @@ summary: >
 
 ## 🎯 **Core Methodologies**
 
-### **The Surgical Approach** ⭐ **Primary Pattern**
+### **The Surgical Approach** ⭐ **Primary Pattern**^surgical-approach
 **Principle**: Focus on root cause, ignore symptoms
 
 **Application in {{your_domain}}:**
@@ -58,7 +58,7 @@ summary: >
 - **Workflow Knowledge**: {{process_understanding}}
 - **Edge Case Awareness**: {{problem_prediction}}
 
-**AI Response Guidelines:**
+**AI Response Guidelines:**^ai-response-guidelines
 - Validate domain insights first
 - Build on expert knowledge
 - Learn from corrections
@@ -129,7 +129,7 @@ summary: >
 - {{key_indicator_2}}
 - {{key_indicator_3}}
 
-### **Systems Thinking Application**
+### **Systems Thinking Application**^systems-thinking
 - **Fix Once, Apply Everywhere**: {{scaling_method}}
 - **Beyond Immediate Problem**: {{broader_impact_consideration}}
 - **Design for Reusability**: {{portability_approach}}
@@ -143,10 +143,10 @@ summary: >
 
 ## 💡 **Success Formula**
 
-### **Most Effective Pattern**
+### **Most Effective Pattern**^success-pattern
 {{primary_success_pattern}}
 
-### **Best Solutions Combine**
+### **Best Solutions Combine**^solution-combination
 - {{your_strength_1}} + {{ai_capability_1}}
 - {{your_strength_2}} + {{ai_capability_2}}
 - {{your_strength_3}} + {{ai_capability_3}}
