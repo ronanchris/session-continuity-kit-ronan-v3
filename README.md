@@ -2,6 +2,19 @@
 
 A sophisticated AI collaboration framework designed to transform expensive Cursor AI costs while preserving 100% of advanced functionality through surgical token optimization.
 
+## 🧩 System Metadata
+
+> This project uses the **Ronan Session Continuity System** to maintain structured context across AI-assisted writing and documentation workflows.
+
+✅ Strategic files include:
+- `session-id`, `linked-notes`, `summary`, and `context-priority` metadata
+- Modular sections marked with `^block-id` for reuse
+- Model routing rules that elevate context depth automatically
+- An active `prompt-library/` with operational prompt files
+- A `00-CONTINUITY-INDEX.md` listing session-aware files
+
+📘 For full usage: see [`README.md`](./README.md), [`00-CONTINUITY-INDEX.md`](./session-continuity/00-CONTINUITY-INDEX.md), or browse [`prompt-library/`](./prompt-library)
+
 ## 🧠 Purpose of the Session Continuity System for Cursor
 
 This system is designed to create **persistent, structured memory inside Cursor**, enabling you to build and reuse deep context across editing sessions, projects, and strategic documents.
