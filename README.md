@@ -23,6 +23,19 @@ At its core, the system transforms your Obsidian-style vault into a **memory-awa
 - Editing becomes **intentional and layered**, not reactive or fragmented.
 - Your vault becomes **an intelligent system**, not just a collection of files.
 
+## Ronan Session Continuity System
+
+This project uses a structured memory approach to enable reasoning continuity across strategic notes. Key components include:
+
+- `session-id`: declares that a file is part of a persistent context thread
+- `linked-notes`: references related files to build semantic graph context
+- `summary`: describes the note's role in supporting AI or human continuity
+- `context-priority`: flags files that require deeper model awareness
+- `^block-id`: marks reusable logic blocks for modular reference
+- `00-CONTINUITY-INDEX.md`: indexes active session-aware notes
+
+This README may be pinned in Cursor or Windsurf to help initialize context in memory-aware sessions.
+
 ## 🎯 **Mission**
 
 Transform your $85/day Cursor costs to $8-15/day while maintaining sophisticated AI collaboration capabilities through revolutionary token optimization techniques.
