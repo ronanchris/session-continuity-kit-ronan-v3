@@ -13,15 +13,15 @@ summary: >
 
 <!-- AI CUSTOMIZATION TRIGGER: Capture deeper patterns and decision-making dynamics through interview about collaboration style, decision patterns, and working preferences. Establish sophisticated AI partnership foundation. -->
 
-## 🧠 **Decision Architecture**
+## 🧠 **Decision Architecture**^decision-architecture
 
-### **Your Decision-Making Style**
+### **Your Decision-Making Style**^decision-making-style
 - **Speed vs. Perfection**: {{decision_speed_preference}}
 - **Evidence Basis**: {{evidence_preference}}
 - **Risk Tolerance**: {{safety_standards}}
 - **Quality Focus**: {{quality_approach}}
 
-### **Core Decision Triggers**
+### **Core Decision Triggers**^decision-triggers
 - **{{trigger_1}}** - {{reasoning_pattern}}
 - **{{trigger_2}}** - {{decision_driver}}
 - **{{trigger_3}}** - {{value_principle}}
@@ -32,15 +32,15 @@ summary: >
 | {{decision_type_1}} | {{your_method}} | {{success_reason}} | {{use_context}} |
 | {{decision_type_2}} | {{your_approach}} | {{effectiveness}} | {{application}} |
 
-## 🤝 **Collaboration Dynamics**
+## 🤝 **Collaboration Dynamics**^collaboration-dynamics
 
-### **Trust & Verification Patterns**
+### **Trust & Verification Patterns**^trust-verification
 **High Trust Areas**: {{autonomous_areas}}
 **Collaborative Review**: {{joint_decision_areas}}
 **Maintained Control**: {{your_authority_areas}}
 **Technical Delegation**: {{ai_decision_scope}}
 
-### **Communication Rhythm**
+### **Communication Rhythm**^communication-rhythm
 - **Session Start**: {{preferred_initiation}}
 - **During Work**: {{feedback_style}}
 - **Direction Changes**: {{change_signals}}

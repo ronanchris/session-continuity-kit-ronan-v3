@@ -1,3 +1,13 @@
+---
+title: Strategic File Metadata Consistency Check
+tags:
+  - continuity
+  - metadata
+  - session-awareness
+  - yaml
+purpose: Verify and apply session continuity metadata to strategic project files
+---
+
 # 📄 Prompt: Continuity Metadata Check
 
 ## ✨ Purpose

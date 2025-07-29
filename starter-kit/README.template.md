@@ -1,3 +1,13 @@
+---
+session-id: readme-starter-kit
+context-priority: high
+linked-notes: 
+  - 00-CONTINUITY-INDEX.template.md
+  - cursor-rules.template.mdc
+summary: >
+  Provides an overview and usage guide for the Session Continuity Starter Kit, explaining its modular, metadata-driven workflow.
+---
+
 # 🧠 Session Continuity Starter Kit (Template)
 
 This starter kit implements the **Ronan Session Continuity System**, a modular, metadata-driven workflow for AI-assisted collaboration in Cursor.

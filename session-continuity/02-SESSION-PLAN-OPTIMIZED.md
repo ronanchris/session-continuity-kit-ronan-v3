@@ -13,7 +13,7 @@ summary: >
 
 <!-- AI CUSTOMIZATION TRIGGER: Configure session lens approach (4-6 items max), identify tool integration needs, and establish context preservation strategy. Apply user's 67% efficiency optimization methodology. -->
 
-## 🎯 Session Lens Focus (Max 4-6 Items)
+## 🎯 Session Lens Focus (Max 4-6 Items)^session-lens-focus
 **Primary Objective**: <!-- Single most important outcome for this session -->
 **Supporting Tasks**: 
 1. <!-- Critical supporting task 1 -->
@@ -23,13 +23,13 @@ summary: >
 
 **Context Boundaries**: <!-- What we're NOT doing this session -->
 
-## 🛠️ Tool Integration Plan
+## 🛠️ Tool Integration Plan^tool-integration-strategy
 **notion_complete_fixer.py**: <!-- Specific usage, expected outputs -->
 **Metadata Management**: <!-- Content organization, structure needs -->
 **Session Continuity**: <!-- Context preservation requirements -->
 **Quality Control**: <!-- Date validation, file integrity checks -->
 
-## 📋 Implementation Approach
+## 📋 Implementation Approach^implementation-strategy
 **Surgical Focus**: <!-- Specific fixes vs. comprehensive overhauls -->
 **Validation Strategy**: <!-- Real-world testing, incremental changes -->
 **Gap Detection**: <!-- "If system were working, wouldn't X happen?" -->

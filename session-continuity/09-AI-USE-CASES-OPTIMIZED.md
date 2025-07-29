@@ -13,7 +13,7 @@ summary: >
 
 <!-- AI CUSTOMIZATION TRIGGER: Document effective AI collaboration scenarios through interview about successful patterns, tool guidance, and proven use cases. Focus on systematic applications with your specific tools. -->
 
-## 🎯 **Primary Use Cases**
+## 🎯 **Primary Use Cases**^primary-use-cases
 
 ### **1. {{primary_use_case_1}}**
 **Scenario**: {{situation_description_1}}
@@ -43,7 +43,7 @@ summary: >
 **Success Pattern**: {{effective_approach_4}}
 **Key Learning**: {{insight_4}}
 
-## 🔧 **Tool-Specific Patterns**
+## 🔧 **Tool-Specific Patterns**^tool-collaboration-patterns
 
 ### **notion_complete_fixer.py Collaboration**
 **Most Effective**: {{notion_tool_success}}
@@ -65,7 +65,7 @@ summary: >
 **What Works**: {{workflow_collaboration_patterns}}
 **What Doesn't**: {{workflow_avoid_patterns}}
 
-## 🚀 **Specialized Use Cases**
+## 🚀 **Specialized Use Cases**^specialized-use-cases
 
 ### **5. {{specialized_use_case_1}}**
 **Scenario**: {{complex_scenario_1}}
@@ -100,7 +100,7 @@ summary: >
 - **{{quality_measure_2}}**: {{evaluation_2}}
 - **{{quality_measure_3}}**: {{evaluation_3}}
 
-## 🔄 **Collaboration Evolution**
+## 🔄 **Collaboration Evolution**^collaboration-evolution
 
 ### **Beginning Stage**
 **Typical Use Cases**: {{beginner_scenarios}}
@@ -139,7 +139,7 @@ summary: >
 **Key Learning**: {{collaboration_insight}}
 ```
 
-## 🎯 **Effectiveness Evaluation**
+## 🎯 **Effectiveness Evaluation**^effectiveness-evaluation
 
 ### **Use Case Quality Criteria**
 - **Efficiency**: {{speed_improvement_measure}}
@@ -148,7 +148,7 @@ summary: >
 - **Scalability**: {{reusability_measure}}
 - **Reliability**: {{consistency_measure}}
 
-### **Continuous Improvement**
+### **Continuous Improvement**^continuous-improvement
 - **Monthly Review**: {{monthly_evaluation}}
 - **Quarterly Analysis**: {{quarterly_pattern_review}}
 - **Annual Evolution**: {{yearly_collaboration_assessment}}

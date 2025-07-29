@@ -18,7 +18,7 @@ Every deviation from plan is learning data for {{project_name}}. Track changes t
 
 **Why This Matters**: {{deviation_tracking_value}}
 
-## 🚨 **Deviation Triggers**
+## 🚨 **Deviation Triggers**^deviation-triggers
 
 ### **Document When:**
 - ⚠️ **Timeline Changed**: {{timeline_pattern}}
@@ -27,7 +27,7 @@ Every deviation from plan is learning data for {{project_name}}. Track changes t
 - ⚠️ **Tool Switched**: {{tool_change_pattern}}
 - ⚠️ **Assumptions Wrong**: {{assumption_pattern}}
 
-### **Deviation History**
+### **Deviation History**^deviation-history
 | Original Plan | Actual Result | Why Changed | Learning |
 |---------------|---------------|-------------|----------|
 | {{plan_1}} | {{actual_1}} | {{reason_1}} | {{insight_1}} |
@@ -54,7 +54,7 @@ IMPACT: {{example_impact}}
 LEARNING: {{example_learning}}
 ```
 
-## 🔄 **Plan Update Protocol**
+## 🔄 **Plan Update Protocol**^plan-update-protocol
 
 ### **Auto-Update Triggers**
 - Changes affecting {{key_constraint}}
@@ -69,7 +69,7 @@ LEARNING: {{example_learning}}
 4. **Capture lessons** for {{similar_projects}}
 5. **Communicate changes** to {{stakeholders}}
 
-## 🧠 **Pattern Recognition**
+## 🧠 **Pattern Recognition**^pattern-recognition
 
 ### **Common Patterns in {{work_type}}**
 - **Timeline**: {{timeline_pattern_description}}
@@ -77,7 +77,7 @@ LEARNING: {{example_learning}}
 - **Quality**: {{quality_pattern_description}}
 - **Tools**: {{tool_pattern_description}}
 
-### **Early Warning Signals**
+### **Early Warning Signals**^early-warning-signals
 **Watch for:**
 - {{signal_1}}
 - {{signal_2}}
@@ -102,19 +102,19 @@ LEARNING: {{example_learning}}
 **{{primary_tool_2}}**: {{deviation_pattern_2}}
 **{{primary_tool_3}}**: {{deviation_pattern_3}}
 
-## 🔄 **Deviation Types**
+## 🔄 **Deviation Types**^deviation-types
 
-### **Positive Deviations** (Better than planned)
+### **Positive Deviations** (Better than planned)^positive-deviations
 - **Document success**: {{success_capture_method}}
 - **Understand factors**: {{success_analysis}}
 - **Replicate conditions**: {{replication_strategy}}
 
-### **Negative Deviations** (Challenges)
+### **Negative Deviations** (Challenges)^negative-deviations
 - **Root cause analysis**: {{problem_identification}}
 - **Solution development**: {{resolution_approach}}
 - **Prevention planning**: {{avoidance_strategy}}
 
-### **Neutral Deviations** (Different approach)
+### **Neutral Deviations** (Different approach)^neutral-deviations
 - **Method comparison**: {{approach_evaluation}}
 - **Efficiency analysis**: {{effectiveness_assessment}}
 - **Preference learning**: {{workflow_optimization}}
@@ -131,15 +131,15 @@ LEARNING: {{example_learning}}
 - **Current**: {{current_deviation_patterns}}
 - **Future Prep**: {{planning_improvements}}
 
-## 📋 **Session Integration**
+## 📋 **Session Integration**^session-integration
 
-### **Session Start Checklist**
+### **Session Start Checklist**^session-start-checklist
 - [ ] Review previous deviations
 - [ ] Identify current assumptions
 - [ ] Set deviation triggers
 - [ ] Agree on update criteria
 
-### **Session End Checklist**
+### **Session End Checklist**^session-end-checklist
 - [ ] Document any deviations
 - [ ] Update affected plans
 - [ ] Identify emerging patterns

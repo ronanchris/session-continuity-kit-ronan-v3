@@ -1,3 +1,13 @@
+---
+session-id: cursor-routing-rules
+context-priority: high
+linked-notes: 
+  - 00-CONTINUITY-INDEX.template.md
+  - README.template.md
+summary: >
+  Template for smart model routing rules in Cursor, using YAML metadata to dynamically select AI models based on file context and priority.
+---
+
 ruleSet:
   name: "session-continuity-routing-template"
   description: >

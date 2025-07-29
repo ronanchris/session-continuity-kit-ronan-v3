@@ -1,3 +1,14 @@
+---
+title: AI Session Onboarding and Continuity Audit
+tags:
+  - onboarding
+  - continuity
+  - audit
+  - session-initialization
+  - system-check
+purpose: Initialize an AI session by comprehensively checking project metadata, block usage, and system alignment
+---
+
 # 🧠 Prompt: AI Onboarding + Continuity Consistency Check
 
 ## ✨ Purpose

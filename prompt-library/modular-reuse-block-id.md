@@ -1,3 +1,14 @@
+---
+title: Modular Reuse with Block ID Anchors
+tags:
+  - modular
+  - reuse
+  - block-id
+  - embedding
+  - continuity
+purpose: Detect and tag reusable logic sections using Obsidian-style block ID anchors
+---
+
 # 🔁 Prompt: Modular Reuse with `^block-id` Anchors
 
 ## ✨ Purpose

@@ -131,21 +131,36 @@ Transform your $85/day Cursor costs to $8-15/day while maintaining sophisticated
 └── ronan-smart-model-routing.mdc # Smart model routing rules
 
 session-continuity/               # Session management system
-├── 01-PROJECT-REQUIREMENTS-OPTIMIZED.md
-├── 02-SESSION-PLAN-OPTIMIZED.md
-├── 03-CURRENT-STATE-OPTIMIZED.md
-├── 04-AI-COLLABORATION-OPTIMIZED.md
-├── 05-SESSION-ENTRANCE-OPTIMIZED.md
-├── 06-WORKING-RELATIONSHIP-DNA-OPTIMIZED.md
-├── 07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md
-├── 08-CONVERSATIONAL-INSIGHTS-OPTIMIZED.md
-├── 09-AI-USE-CASES-OPTIMIZED.md
 ├── 10-DEVIATION-TRACKING-OPTIMIZED.md
 ├── 11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md
 ├── 12-SYSTEM-TEST-PLAN-OPTIMIZED.md
 ├── COMPLETE-SYSTEM-OVERVIEW.md
 └── DEPLOYMENT-GUIDE-OPTIMIZED.md
 ```
+
+## 🧠 Prompt Library
+
+This folder contains reusable AI prompt templates designed to support auditing, metadata tagging, and modular reuse across the system.
+
+Each file includes structured YAML frontmatter for title, tags, and purpose, and can be pasted into Cursor to trigger guided workflows.
+
+| File | Title | Purpose |
+|------|-------|---------|
+| continuity-metadata-check.md | Continuity Metadata Check | Ensures notes have proper YAML for context-aware use |
+| modular-reuse-block-id.md | Modular Reuse with Block IDs | Adds `^block-id` anchors for reusable logic |
+| onboarding-and-consistency-check.md | Onboarding & System Audit | Initializes AI and checks system consistency |
+
+## 🧱 Starter Kit Templates
+
+The `starter-kit/` directory contains ready-to-clone foundational templates for launching continuity-aware projects.
+
+Each file includes preconfigured metadata and strategic structure.
+
+| File | Purpose |
+|------|---------|
+| `00-CONTINUITY-INDEX.template.md` | Template for session index to track anchor notes |
+| `README.template.md` | Project overview template including metadata and purpose |
+| `cursor-rules.template.mdc` | Smart model routing rule template with metadata-driven logic |
 
 ## 🚀 **Getting Started**
 
