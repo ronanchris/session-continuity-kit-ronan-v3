@@ -141,6 +141,17 @@ session-continuity/               # Session management system
 3. **Customize** cursor rules for your collaboration preferences
 4. **Deploy** using `DEPLOYMENT-GUIDE-OPTIMIZED.md`
 
+## 🧠 Session Continuity System Reference
+
+This project uses a structured memory system to help both AI and human collaborators preserve context over time. Key practices include:
+
+- Metadata fields like `session-id`, `linked-notes`, and `context-priority`
+- Block IDs (`^block-id`) for modular reuse across notes
+- A `00-CONTINUITY-INDEX.md` that lists active session-aware notes
+- Cursor rules that elevate model depth based on strategic context
+
+This README should be pinned in Cursor during editing to help orient the agent to this logic layer.
+
 ## 🔄 **Recursive Improvement**
 
 This system is designed to improve itself through:

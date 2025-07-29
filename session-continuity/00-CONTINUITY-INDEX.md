@@ -1,5 +1,9 @@
 ---
 session-id: session-index
+linked-notes:
+  - 07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md
+  - 12-SYSTEM-TEST-PLAN-OPTIMIZED.md
+  - 08-CONVERSATIONAL-INSIGHTS-OPTIMIZED.md
 context-priority: critical
 summary: >
   Central index of active session-aware notes, providing a comprehensive overview of the current project's strategic documentation and context threads.
