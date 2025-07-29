@@ -1,0 +1,19 @@
+ruleSet:
+  name: "session-continuity-routing-template"
+  description: >
+    Sample routing rule for projects using YAML metadata to elevate model choice.
+    Designed for continuity-aware workspaces in Cursor.
+
+  rules:
+    - name: "Use Claude 3 Opus for high-priority context files"
+      if:
+        - file.yamlContains("context-priority: high")
+      then:
+        - useModel: "claude-3-opus"
+
+    - name: "Use Claude 3 Sonnet for structured strategic notes"
+      if:
+        - file.yamlContains("linked-notes")
+        - file.yamlContains("summary")
+      then:
+        - preferModel: "claude-3-sonnet"
