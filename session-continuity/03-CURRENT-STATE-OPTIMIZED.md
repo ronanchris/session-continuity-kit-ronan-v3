@@ -1,11 +1,15 @@
 ---
-template: current-state
-version: 2.0-optimized
-last_updated: {{date}}
-status: {{project_status}}
+session-id: project-context
+linked-notes:
+  - 01-PROJECT-REQUIREMENTS-OPTIMIZED.md
+  - 02-SESSION-PLAN-OPTIMIZED.md
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+context-priority: high
+summary: >
+  Provides a comprehensive snapshot of the current project state, capturing existing systems, challenges, and strategic context to inform systematic planning and AI collaboration.
 ---
 
-# Current State Snapshot - {{project_name}}
+# Current State Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Set up project status tracking through quick interview about current project state, tool usage, and progress. Apply session lens approach (4-6 items max) for efficiency. -->
 

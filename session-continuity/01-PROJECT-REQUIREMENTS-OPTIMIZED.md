@@ -1,11 +1,15 @@
 ---
-template: project-requirements
-version: 2.0-optimized
-created: {{date}}
-project: {{project_name}}
+session-id: project-foundations
+linked-notes:
+  - 02-SESSION-PLAN-OPTIMIZED.md
+  - 03-CURRENT-STATE-OPTIMIZED.md
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+context-priority: high
+summary: >
+  Establishes the foundational requirements and strategic objectives for the project, serving as the initial anchor for systematic project planning and AI collaboration.
 ---
 
-# Project Requirements - {{project_name}}
+# Project Requirements Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Interview user about project specifics, technical stack, and collaboration preferences. Use proven question sequences to systematically gather requirements while preserving user's sophisticated systematic approach. -->
 

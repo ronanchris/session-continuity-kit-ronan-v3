@@ -1,11 +1,15 @@
 ---
-template: session-entrance-prompt
-version: 2.0-optimized
-session_date: {{date}}
-context_compression: high-efficiency
+session-id: session-initialization
+linked-notes:
+  - 02-SESSION-PLAN-OPTIMIZED.md
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 06-WORKING-RELATIONSHIP-DNA-OPTIMIZED.md
+context-priority: high
+summary: >
+  Defines the systematic approach to initializing each collaboration session, ensuring consistent context preservation, tool integration, and alignment with the working relationship DNA.
 ---
 
-# Session Entrance Prompt - {{session_date}}
+# Session Entrance Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Configure compressed context loading for maximum efficiency while preserving essential collaboration intelligence. Apply session lens methodology for 67% overhead reduction. -->
 

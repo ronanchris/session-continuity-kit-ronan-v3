@@ -1,11 +1,15 @@
 ---
-template: working-relationship-dna
-version: 2.0-optimized
-relationship_stage: {{collaboration_maturity}}
-last_updated: {{date}}
+session-id: collaboration-dna
+linked-notes:
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+  - 05-SESSION-ENTRANCE-OPTIMIZED.md
+  - 07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md
+context-priority: high
+summary: >
+  Captures the core characteristics, communication preferences, and systematic approach that define the unique working relationship between human and AI, enabling more intelligent and personalized collaboration.
 ---
 
-# Working Relationship DNA - {{project_name}}
+# Working Relationship DNA Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Capture deeper patterns and decision-making dynamics through interview about collaboration style, decision patterns, and working preferences. Establish sophisticated AI partnership foundation. -->
 
