@@ -1,11 +1,15 @@
 ---
-template: session-plan
-version: 2.0-optimized
-session_date: {{date}}
-session_focus: {{session_theme}}
+session-id: session-planning
+linked-notes:
+  - 01-PROJECT-REQUIREMENTS-OPTIMIZED.md
+  - 03-CURRENT-STATE-OPTIMIZED.md
+  - 04-AI-COLLABORATION-OPTIMIZED.md
+context-priority: high
+summary: >
+  Strategic framework for session planning that implements the session lens methodology, focusing on 4-6 key items per session to maximize efficiency and maintain context continuity.
 ---
 
-# Session Plan - {{session_theme}}
+# Session Planning Optimization
 
 <!-- AI CUSTOMIZATION TRIGGER: Configure session lens approach (4-6 items max), identify tool integration needs, and establish context preservation strategy. Apply user's 67% efficiency optimization methodology. -->
 

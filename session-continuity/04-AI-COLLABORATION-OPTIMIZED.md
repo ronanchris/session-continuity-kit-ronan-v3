@@ -1,8 +1,12 @@
 ---
-template: ai-collaboration
-version: 2.0-optimized
-relationship_stage: {{collaboration_maturity}}
-last_updated: {{date}}
+session-id: collaboration-intelligence
+linked-notes:
+  - COMPLETE-SYSTEM-OVERVIEW.md
+  - 06-WORKING-RELATIONSHIP-DNA-OPTIMIZED.md
+  - 07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md
+context-priority: high
+summary: >
+  Defines the core working relationship DNA, collaboration sophistication, and advanced techniques for systematic AI partnership, focusing on direct communication and meta-collaboration.
 ---
 
 # AI Collaboration Intelligence - {{project_name}}
