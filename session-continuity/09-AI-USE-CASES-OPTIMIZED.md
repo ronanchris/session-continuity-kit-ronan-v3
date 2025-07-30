@@ -43,12 +43,7 @@ summary: >
 **Success Pattern**: {{effective_approach_4}}
 **Key Learning**: {{insight_4}}
 
-## 🔧 **Tool-Specific Patterns**^tool-collaboration-patterns
-
-### **notion_complete_fixer.py Collaboration**
-**Most Effective**: {{notion_tool_success}}
-**What Works**: {{notion_collaboration_patterns}}
-**What Doesn't**: {{notion_avoid_patterns}}
+## 🔧 **Tool-Specific Patterns**
 
 ### **Metadata Management Collaboration**
 **Most Effective**: {{metadata_success}}

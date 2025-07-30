@@ -1,7 +1,3 @@
----
-description: "AI interview triggers, template automation, and tool integration protocols"
-alwaysApply: true
----
 
 # Cursor AI Automation & Advanced Features
 
@@ -22,7 +18,7 @@ When encountering HTML comment blocks in templates:
 
 **Example Trigger Patterns:**
 - `<!-- PROJECT SETUP: Interview user about project specifics -->`
-- `<!-- TOOL INTEGRATION: Configure notion_complete_fixer.py settings -->`
+- `<!-- TOOL INTEGRATION: Configure metadata management settings -->`
 - `<!-- SESSION ENTRANCE: Customize context preservation approach -->`
 
 ## 📋 TEMPLATE AUTOMATION PROTOCOLS
@@ -47,8 +43,8 @@ When encountering HTML comment blocks in templates:
 
 ## 🔧 TOOL-SPECIFIC INTEGRATIONS
 
-### Notion Workflow Optimization
-- Integration with notion_complete_fixer.py for metadata management
+### Workflow Optimization
+- Integration with metadata management for systematic organization
 - Automated content organization and structure validation
 - Cross-platform content synchronization patterns
 - Database relationship optimization
@@ -94,6 +90,10 @@ When encountering HTML comment blocks in templates:
 - Verification protocols for successful template activation
 
 ### GitHub Integration Patterns
+- Repository structure optimization for infinite reusability
+- Documentation automation for community contribution
+- Version control for session continuity system evolution
+- Portable framework packaging for external distribution
 - Repository structure optimization for infinite reusability
 - Documentation automation for community contribution
 - Version control for session continuity system evolution

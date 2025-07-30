@@ -58,7 +58,7 @@ cursor-rules-automation.md    # Advanced features & triggers
 
 ### Functionality Preservation
 - ✅ **AI Interview System**: HTML trigger blocks fully functional
-- ✅ **Tool Integration**: notion_complete_fixer.py, metadata tools
+- ✅ **Tool Integration**: Metadata management tools
 - ✅ **Session Continuity**: Context preservation across sessions
 - ✅ **Quality Controls**: Date validation, file integrity, backups
 - ✅ **Advanced Features**: Meta-collaboration, recursive improvement
@@ -67,7 +67,7 @@ cursor-rules-automation.md    # Advanced features & triggers
 
 ### Project-Specific Setup^project-specific-setup
 1. **Run AI Interview Triggers**: Let HTML comments guide customization
-2. **Configure Tool Integration**: Set up notion tools, metadata management
+2. **Configure Tool Integration**: Set up metadata management
 3. **Establish Session Boundaries**: Define active project scope
 4. **Optimize Context Size**: Compress frequent-load documents <5KB
 

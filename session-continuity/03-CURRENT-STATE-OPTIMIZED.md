@@ -36,7 +36,7 @@ summary: >
 ## 🔧 **Active Tool Status**
 
 ### **Primary Tools**
-- **notion_complete_fixer.py**: {{status_and_effectiveness}}
+- **Metadata Management**: {{status_and_effectiveness}}
 - **unicode_cleaner.py**: {{usage_status}}
 - **fix_metadata.sh**: {{usage_status}}
 - **apply_template.sh**: {{usage_status}}

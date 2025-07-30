@@ -26,7 +26,7 @@ summary: >
 
 ## 🤝 AI Collaboration Scope ^ai-collaboration-scope
 **Session Focus**: <!-- 4-6 item maximum per session lens approach -->
-**Tool Integration**: <!-- notion_complete_fixer.py, metadata tools, etc. -->
+**Tool Integration**: <!-- Metadata management tools, workflow optimization, etc. -->
 **Context Preservation**: <!-- Working relationship DNA requirements -->
 **Quality Standards**: <!-- Enterprise-grade reliability expectations -->
 
