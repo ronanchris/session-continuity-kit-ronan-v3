@@ -1,7 +1,3 @@
----
-description: "Core AI collaboration system - Session lens protocol, token optimization, and development standards"
-alwaysApply: true
----
 
 # Ronan's Optimized Cursor AI Collaboration Rules
 
@@ -45,8 +41,7 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 - Quality obsession with user-driven refinement
 
 ## 🛠️ TOOL INTEGRATION
-- notion_complete_fixer.py for Notion workflow optimization
-- Metadata management tools for content organization
+- Metadata management for workflow optimization
 - AI interview triggers (HTML comment blocks) for template customization
 - Session entrance prompts for context preservation
 - Deviation tracking for learning from system changes
@@ -61,6 +56,10 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 ## 🔄 RECURSIVE IMPROVEMENT
 System designed to improve itself through:
 - Pattern recognition from successful collaboration
+- Implementation gap identification and resolution
+- Breakthrough moment capture for blog generation
+- Working relationship DNA evolution
+- Quality control automation development
 - Implementation gap identification and resolution
 - Breakthrough moment capture for blog generation
 - Working relationship DNA evolution

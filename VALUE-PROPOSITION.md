@@ -36,7 +36,7 @@ You've mastered complex systems over decades, yet every Cursor session starts fr
 #### **Enterprise-Grade Architecture**
 **Comprehensive framework**: 15-template system with 4 .mdc rule files covering:
 - Working relationship DNA preservation and problem-solving patterns
-- Tool integration (notion_complete_fixer.py, metadata management)
+- Tool integration (metadata management, workflow optimization)
 - Meta-collaboration intelligence and recursive system improvement
 - Quality control with enterprise-grade reliability standards
 
@@ -66,7 +66,7 @@ You've mastered complex systems over decades, yet every Cursor session starts fr
 - **Session Management**: 4-6 item focus with boundary setting and momentum preservation
 - **Working Relationship DNA**: Communication style, decision patterns, quality standards
 - **Problem-Solving Patterns**: Surgical precision methods, implementation gap detection
-- **Tool Integration**: notion_complete_fixer.py, metadata management, automation workflows
+- **Tool Integration**: Metadata management, workflow optimization, automation workflows
 
 #### **Advanced Collaboration Architecture** 
 - **Meta-Collaboration**: Systems that improve AI collaboration itself
