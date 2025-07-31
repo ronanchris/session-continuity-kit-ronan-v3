@@ -38,14 +38,18 @@ cursor-rules-automation.md    # Advanced features & triggers
 02-SESSION-PLAN-OPTIMIZED.md
 04-AI-COLLABORATION-OPTIMIZED.md
 05-SESSION-ENTRANCE-OPTIMIZED.md
+13-ACTIVE-SESSION-CONTEXT-OPTIMIZED.md  # NEW: Real-time context tracking
 ```
 **AI Interview Triggers**: HTML comment blocks enable guided customization
+**Active Context**: Real-time micro-context preservation for interruption recovery
 
 ### Step 4: Validation & Testing^deployment-validation-checklist
 - [ ] Cursor recognizes new rules (restart if needed)
 - [ ] .cursorindexingignore excludes vault content
 - [ ] AI interview triggers activate in templates
 - [ ] Session lens approach functional (4-6 items max)
+- [ ] Active session context template accessible via HTML trigger
+- [ ] Real-time context tracking maintains <2KB token budget
 - [ ] Token usage monitoring shows dramatic reduction
 
 ## 📊 EXPECTED RESULTS
