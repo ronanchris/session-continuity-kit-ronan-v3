@@ -103,6 +103,33 @@ curl -o core/SYSTEM-DEPLOYMENT.md https://raw.githubusercontent.com/ronanchris/s
 - **Use for actual project work** - Context preservation shows value over multiple sessions
 - **Reference templates in future sessions** - Ask Cursor to review your project requirements or session management
 
+## Troubleshooting Model Routing
+
+### AI Model Selection Diagnostics
+
+#### Automatic Routing Not Working?
+1. **Check YAML Metadata**
+   - Ensure `context-priority: high` is set for strategic files
+   - Verify metadata is correctly formatted
+
+2. **Manual Model Selection**
+   - Use chat command: "Use Claude 3 Opus for this file"
+   - Explicitly specify desired AI model
+
+3. **Routing Verification**
+   - Open file in Cursor
+   - Check AI model selected in top-right corner
+   - Confirm matches expected model based on content/priority
+
+#### Common Routing Rules
+- High-priority files → Claude 3 Opus
+- Framework development → Claude 3.7 Sonnet
+- Critical architecture → Claude 4 Sonnet
+- Standard work → Claude 3.5 Haiku
+- Routine tasks → Cursor Small
+
+**Pro Tip**: When in doubt, use explicit model selection to ensure optimal AI assistance.
+
 ## What Makes This Different
 
 ### **Not Just Templates** 
