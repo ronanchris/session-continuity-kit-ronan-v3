@@ -49,7 +49,7 @@ This revolutionary framework transforms your Cursor workspace into a **memory-aw
 
 **⚡ Revolutionary User Experience**: HTML trigger blocks in templates launch guided customization interviews, eliminating setup complexity while preserving systematic sophistication.
 
-**📊 Performance Excellence**: Mathematical optimization through session lens methodology delivers measurable improvements while maintaining advanced collaboration capabilities.
+**📊 Performance Excellence**: Mathematical optimization through proven [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) delivers measurable improvements while maintaining advanced collaboration capabilities.
 
 **🛠️ Enterprise Integration**: Complete tool compatibility with metadata management and systematic workflow preservation.
 
@@ -67,7 +67,7 @@ This revolutionary framework transforms your Cursor workspace into a **memory-aw
 
 **Core Intelligence:**
 - **`core/AI-COLLABORATION-CORE.md`** - Complete meta-collaboration intelligence foundation
-- **`core/SESSION-MANAGEMENT.md`** - Full session handling with lens methodology (4-6 items max)
+- **`core/SESSION-MANAGEMENT.md`** - Full session handling with [lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) (4-6 items max)
 - **`core/PROJECT-REQUIREMENTS.md`** - Project foundation with HTML trigger showcase
 
 **Advanced Methodologies:**

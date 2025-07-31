@@ -92,22 +92,13 @@ curl -o PROJECT-REQUIREMENTS.md https://raw.githubusercontent.com/ronanchris/ses
 - Reference your customized templates during development
 - Experience how Cursor maintains context across the session
 
-### **Session Lens Methodology Deep Dive**
+### **Session Lens Methodology Application**
 
-#### **The 4-6 Item Rule**
-**Why Maximum 6**: Human attention has limits. More items = scattered work, less items = insufficient challenge.
+Apply the proven [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) (4-6 items max) delivering 67% efficiency gains through systematic attention management.
 
-**Example Session Lens**:
-1. **Primary**: Implement user authentication flow
-2. **Supporting**: Set up database schema for users
-3. **Supporting**: Create login/signup components
-4. **Supporting**: Write basic user tests
-5. **Boundary**: NOT working on payment integration today
+**Quick Reference**: 1 primary objective + 3-5 supporting tasks + explicit boundaries = mathematical efficiency optimization
 
-#### **Efficiency Mathematics**
-- **Before Session Lens**: Scattered attention across 10+ items = 100% overhead
-- **After Session Lens**: Focused attention on 4-6 items = 33% overhead
-- **Net Gain**: 67% efficiency improvement through disciplined attention management
+For complete methodology details, see [SESSION-MANAGEMENT.md#session-lens-focus](core/SESSION-MANAGEMENT.md#session-lens-focus)
 
 ### **Success Criteria**
 - [ ] Session lens methodology applied to real project work

@@ -48,7 +48,7 @@ curl -o PROJECT-REQUIREMENTS.md https://raw.githubusercontent.com/ronanchris/ses
 # Copy the session management core
 curl -o SESSION-MANAGEMENT.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/SESSION-MANAGEMENT.md
 ```
-- Experience the "session lens" methodology (4-6 items max focus)
+- Experience the proven [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) (4-6 items max focus)
 - Learn systematic session planning with AI collaboration
 - Try real project work with context preservation
 

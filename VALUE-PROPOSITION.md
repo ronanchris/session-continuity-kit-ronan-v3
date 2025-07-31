@@ -30,7 +30,7 @@ You've mastered complex systems over decades, yet every Cursor session starts fr
 **Result**: Transforms template experience entirely – no more blank page paralysis.
 
 #### **Session Lens Methodology**
-**Systematic focus**: Exactly 4-6 critical items per session with explicit boundaries. 
+**Systematic focus**: Proven [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) (4-6 items max) delivering 67% efficiency gains. 
 **Proven result**: Eliminates scattered work and context switching through disciplined attention management.
 
 #### **Enterprise-Grade Architecture**

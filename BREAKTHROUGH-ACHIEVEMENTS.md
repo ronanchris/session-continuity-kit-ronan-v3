@@ -134,6 +134,7 @@ HTML comment triggers eliminate template intimidation and transform complex setu
 ### **Optimization Methodology**
 
 #### **Session Lens Mathematical Validation**
+Complete [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) delivering:
 - **Attention Management**: 4-6 item maximum focus per session
 - **Cognitive Load Reduction**: 67% efficiency improvement through disciplined boundaries
 - **Context Compression**: <15KB per session with systematic information preservation

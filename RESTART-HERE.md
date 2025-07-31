@@ -51,7 +51,7 @@ You are restarting the **V2 Surgical Core System** - revolutionary **6-template 
 |------|----------|----------------------|
 | core/AI-COLLABORATION-CORE.md | `^decision-architecture` | Advanced decision-making patterns |
 | core/AI-COLLABORATION-CORE.md | `^collaboration-dynamics` | Sophisticated partnership patterns |
-| core/SESSION-MANAGEMENT.md | `^session-lens-focus` | 4-6 item methodology (67% efficiency) |
+| core/SESSION-MANAGEMENT.md | `^session-lens-focus` | [Session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) (67% efficiency) |
 
 ### V2 Template System Excellence
 | File | Block ID | Innovation Purpose |
@@ -80,7 +80,7 @@ You are restarting the **V2 Surgical Core System** - revolutionary **6-template 
 ### **Phase 1: Breakthrough Context Restoration**
 1. Verify **meta-collaboration intelligence** is active and responsive
 2. Confirm **HTML trigger system** recognizes template customization opportunities
-3. Validate **session lens methodology** (4-6 items max) is operational
+3. Validate [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) (4-6 items max) is operational
 4. Check **token optimization boundaries** for proven performance gains
 
 ### **Phase 2: Revolutionary Capability Verification** 
