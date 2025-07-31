@@ -5,11 +5,24 @@ alwaysApply: true
 
 ruleSet:
   name: "ronan-smart-model-routing-surgical"
-  description: "Auto-selects the appropriate model based on content complexity and matching phrases. Optimized for surgical 6-template Session Continuity Core system."
+  description: "Auto-selects the appropriate model based on task complexity and matching phrases. Optimized for surgical 6-template Session Continuity Core system."
   trigger:
     fileExtensions: [".md"]
 
   rules:
+    # 🟡 Efficient Tier: Claude 3.5 Haiku (MOVED UP for compression work)
+    - name: "Use Claude 3.5 for content compression and standard dev work"
+      if:
+        - file.contains("compression")
+        - file.contains("editing")
+        - file.contains("documentation")
+        - file.contains("file processing")
+        - file.contains("standard debugging")
+        - file.contains("word reduction")
+        - file.contains("surgical precision")
+      then:
+        - useModel: "claude-3.5-haiku"
+
     # 🔵 Strategic Importance Tier: Claude 3 Opus
     - name: "Use Claude 3 Opus for high-priority context files"
       if:
@@ -51,28 +64,17 @@ ruleSet:
         - file.contains("AI interview")
         - file.contains("template customization")
         - file.contains("surgical precision")
-        - file.contains("breakthrough capabilities")
         - file.contains("recursive improvement")
         - file.contains("session management core")
         - file.contains("collaboration intelligence")
         - file.contains("working relationship DNA")
+        - file.contains("QUICK-START.md")
+        - file.contains("USER-GUIDE.md")
+        - file.contains("EXAMPLES.md")
+        - file.contains("BREAKTHROUGH-ACHIEVEMENTS.md")
+        - file.contains("meta-collaboration intelligence")
       then:
         - useModel: "claude-3.7-sonnet"
-
-    # 🟡 Efficient Tier: Claude 3.5 Haiku
-    - name: "Use Claude 3.5 for standard summaries and dev work"
-      if:
-        - file.contains("summary")
-        - file.contains("insight")
-        - file.contains("documentation")
-        - file.contains("file processing")
-        - file.contains("standard debugging")
-        - file.contains("first-pass analysis")
-        - file.contains("data manipulation")
-        - file.contains("learning capture")
-        - file.contains("problem solving methods")
-      then:
-        - useModel: "claude-3.5-haiku"
 
     # 🟢 Economy Tier: Cursor Small
     - name: "Use Cursor Small for routine or structural work"
@@ -100,4 +102,4 @@ ruleSet:
 # - Manual overrides are always allowed via chat: e.g., "Use Claude 4 for this."
 # - Updated content matching reflects surgical 6-template architecture
 # - Eliminated references to removed templates from 16-template system
-# - Optimized for breakthrough capabilities in consolidated templates
+# - Optimized for core capabilities in consolidated templates

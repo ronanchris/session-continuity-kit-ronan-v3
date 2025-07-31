@@ -10,7 +10,7 @@ Session Continuity transforms scattered AI interactions into intelligent project
 
 ## 🚀 5-Minute Test Drive
 
-**[QUICK-START.md](QUICK-START.md)** - Experience the breakthrough immediately
+**[QUICK-START.md](QUICK-START.md)** - Experience the system immediately
 
 - Token protection (30s) - Save $50+ daily
 - Magic template (2m) - Revolutionary UX  
@@ -42,7 +42,7 @@ Session Continuity transforms scattered AI interactions into intelligent project
 2. **[SESSION-MANAGEMENT.md](core/SESSION-MANAGEMENT.md)** - Session handling + lens methodology
 3. **[PROJECT-REQUIREMENTS.md](core/PROJECT-REQUIREMENTS.md)** - HTML trigger showcase
 4. **[PROBLEM-SOLVING-METHODS.md](core/PROBLEM-SOLVING-METHODS.md)** - Surgical precision approaches
-5. **[LEARNING-CAPTURE.md](core/LEARNING-CAPTURE.md)** - Breakthrough documentation
+5. **[LEARNING-CAPTURE.md](core/LEARNING-CAPTURE.md)** - Innovation documentation
 6. **[SYSTEM-DEPLOYMENT.md](core/SYSTEM-DEPLOYMENT.md)** - Complete deployment guide
 
 ## 🛠️ Additional Resources

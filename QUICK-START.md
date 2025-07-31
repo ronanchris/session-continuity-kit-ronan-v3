@@ -78,7 +78,7 @@ curl -o core/SYSTEM-DEPLOYMENT.md https://raw.githubusercontent.com/ronanchris/s
 ```
 - Experience meta-collaboration intelligence (AI that improves itself)
 - Get enterprise-grade systematic framework for serious project work
-- Join community of practitioners using breakthrough AI collaboration
+- Join community of practitioners using advanced AI collaboration
 
 ### **Level 3: Advanced Features** (1 hour)
 - Copy complete .cursor/rules/ system for smart model routing

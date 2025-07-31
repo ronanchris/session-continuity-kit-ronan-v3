@@ -17,7 +17,7 @@ This prompt initializes an AI session by scanning the project for strategic meta
 
 ## 🧠 Prompt
 
-You are entering a project that uses the **Surgical Session Continuity Core System** - a breakthrough framework with validated meta-collaboration intelligence that preserves context and reasoning across sessions using surgical precision architecture.
+You are entering a project that uses the **Surgical Session Continuity Core System** - a framework with validated meta-collaboration intelligence that preserves context and reasoning across sessions using surgical precision architecture.
 
 Please review this project with the following goals in mind:
 
@@ -34,7 +34,7 @@ Confirm that the surgical 6-template system is properly configured:
 - `SESSION-MANAGEMENT.md` - Complete session handling with lens methodology
 - `PROJECT-REQUIREMENTS.md` - HTML trigger showcase + project foundation
 - `PROBLEM-SOLVING-METHODS.md` - Surgical precision methodologies
-- `LEARNING-CAPTURE.md` - Breakthrough documentation system
+- `LEARNING-CAPTURE.md` - Innovation documentation system
 - `SYSTEM-DEPLOYMENT.md` - Complete deployment + validation guide
 
 **2. Metadata Consistency Check**
@@ -77,7 +77,7 @@ Confirm token protection is active:
 
 **7. Meta-Collaboration Intelligence Check**
 
-Validate breakthrough capabilities are operational:
+Validate core capabilities are operational:
 - System responds to implementation gap detection queries
 - HTML trigger recognition working for guided customization
 - Self-monitoring capability demonstrable when questioned
