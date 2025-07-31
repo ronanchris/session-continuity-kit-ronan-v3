@@ -10,7 +10,14 @@ ruleSet:
     fileExtensions: [".md"]
 
   rules:
-    # 🟡 Efficient Tier: Claude 3.5 Haiku (MOVED UP for compression work)
+    # 🔵 Strategic Importance Tier: Claude 3 Opus (MOVED TO TOP)
+    - name: "Use Claude 3 Opus for high-priority context files"
+      if:
+        - file.yamlContains("context-priority: high")
+      then:
+        - useModel: "claude-3-opus"
+
+    # 🟡 Efficient Tier: Claude 3.5 Haiku (MOVED DOWN)
     - name: "Use Claude 3.5 for content compression and standard dev work"
       if:
         - file.contains("compression")
@@ -22,13 +29,6 @@ ruleSet:
         - file.contains("surgical precision")
       then:
         - useModel: "claude-3.5-haiku"
-
-    # 🔵 Strategic Importance Tier: Claude 3 Opus
-    - name: "Use Claude 3 Opus for high-priority context files"
-      if:
-        - file.yamlContains("context-priority: high")
-      then:
-        - useModel: "claude-3-opus"
 
     # 🟣 Linked Notes Tier: Claude 3 Sonnet
     - name: "Use Claude 3 Sonnet for well-structured notes"
