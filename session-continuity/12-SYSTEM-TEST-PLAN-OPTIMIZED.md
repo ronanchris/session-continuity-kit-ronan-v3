@@ -34,6 +34,36 @@ summary: >
 
 ## 🧪 **Core Test Categories**
 
+### **0. Active Session Context Validation**
+
+#### **Test 0.1: Interruption Recovery**
+- **Objective**: Validate that active session context enables seamless work resumption after interruptions
+- **Data**: Complex implementation session with 4-6 focus items
+- **Steps**: Work 30+ minutes → Record active context → Take 2+ hour break → Resume using active context
+- **Expected**: Context reconstruction within 2 minutes, no lost micro-decisions
+- **Pass Criteria**: 90%+ of implementation details preserved, smooth continuation
+
+#### **Test 0.2: Session Lens Compliance**
+- **Objective**: Ensure active context maintains session lens methodology (4-6 items max)
+- **Data**: Typical development session
+- **Steps**: Initialize session → Track focus items → Validate item count and focus boundaries
+- **Expected**: Never exceeds 6 items, maintains clear scope boundaries
+- **Pass Criteria**: Session lens adherence 100%, efficiency gains preserved
+
+#### **Test 0.3: Token Optimization**
+- **Objective**: Verify active context stays within <2KB target for frequent updates
+- **Data**: Real session with multiple updates
+- **Steps**: Update context 10+ times → Measure token usage → Compare to session plan tokens
+- **Expected**: Consistent <2KB size, no context bloat
+- **Pass Criteria**: Token efficiency maintained, update frequency sustainable
+
+#### **Test 0.4: Tool Integration**
+- **Objective**: Validate that tool state tracking works with existing system
+- **Data**: Multi-tool development session
+- **Steps**: Use 3+ tools → Update tool states → Cross-reference with session plan
+- **Expected**: Tool states accurately tracked, no duplication with session planning
+- **Pass Criteria**: Clear tool state visibility, complements existing tracking
+
 ### **1. Functional Testing**
 
 #### **{{tool_1}} Tests**
