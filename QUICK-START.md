@@ -12,6 +12,19 @@ Makes Cursor remember your project context between sessions, like having a conve
 curl -o .cursorindexingignore https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/.cursorindexingignore
 ```
 
+#### **Config File Basics** (New to .cursorindexingignore? Read this!)
+**Comment out lines**: Add `#` at start of any line to disable it
+```bash
+# node_modules/     ← This line is disabled
+node_modules/       ← This line is active
+```
+
+**Test changes work**: Save file → Restart Cursor → Check response time improvement
+
+**Revert safely**: Keep backup copy or use git to undo changes
+
+**Troubleshooting**: If indexing breaks, comment out recent changes one by one until fixed
+
 ### Step 2: Try the Magic Template (2 minutes)
 ```bash
 # Copy one template to experience the innovation

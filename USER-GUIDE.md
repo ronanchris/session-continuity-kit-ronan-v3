@@ -75,6 +75,49 @@ curl -o SESSION-MANAGEMENT.md https://raw.githubusercontent.com/ronanchris/sessi
 curl -o PROJECT-REQUIREMENTS.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/PROJECT-REQUIREMENTS.md
 ```
 
+##### **Config File Management for Developers** 
+**Master .cursorindexingignore without sysadmin experience**
+
+**📝 Basic Editing**:
+- **Comment out lines**: Add `#` at start to disable without deleting
+- **Uncomment lines**: Remove `#` from start to reactivate  
+- **Add new patterns**: Type directory or file pattern on new line
+
+**🔧 Safe Testing Process**:
+1. **Make backup**: `cp .cursorindexingignore .cursorindexingignore.backup`
+2. **Edit file**: Make your changes
+3. **Save & restart**: Save file → Restart Cursor completely
+4. **Test performance**: Check if response time improved
+5. **Revert if needed**: `cp .cursorindexingignore.backup .cursorindexingignore`
+
+**🚨 Troubleshooting Guide**:
+- **Cursor won't start**: Comment out your recent changes, restart
+- **No performance improvement**: Uncomment key exclusions (node_modules/, dist/)
+- **Missing important files**: Check if you accidentally excluded project files  
+- **Indexing broken**: Revert to backup, then add changes one line at a time
+
+**💡 Pro Tips**:
+- **Temporarily disable**: Add `#` to test what a pattern does
+- **Project-specific tweaks**: Add patterns for your specific needs
+- **Version control**: Commit working versions to git for easy rollback
+
+**📋 Common Scenarios**:
+```bash
+# Debugging: Temporarily include a directory
+# docs/                    ← Commented out (included)
+docs/                      ← Active (excluded)
+
+# Performance issues: Exclude more aggressively  
+node_modules/              ← Always keep this excluded
+.next/                     ← Add project-specific exclusions
+dist/
+build/
+
+# Missing files: Check you didn't exclude too much
+# src/                     ← Don't exclude your source code!
+# *.js                     ← Don't exclude your programming files!
+```
+
 #### **2. Set Up Real Project** (10 minutes)
 1. **Open PROJECT-REQUIREMENTS.md**
 2. **Use HTML trigger**: "Help me set up requirements for [your actual project]"
