@@ -30,7 +30,7 @@ git clone https://github.com/ronanchris/session-continuity-kit-ronan.git
 cd session-continuity-kit-ronan
 
 # Review the framework structure
-ls session-continuity/
+ls core/
 ls templates/
 ls starter-kit/
 
@@ -192,9 +192,9 @@ git push origin feature/your-enhancement-name
 - Meta-collaboration intelligence examples
 
 ### **Innovation Documentation**
-- Update `session-continuity/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md` for innovations
-- Add to `session-continuity/07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md` for new patterns
-- Document in `session-continuity/VALIDATION-FRAMEWORK.md` for proven results
+- Update `core/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md` for innovations
+- Add to `core/07-PROBLEM-SOLVING-PATTERNS-OPTIMIZED.md` for new patterns
+- Document in `core/VALIDATION-FRAMEWORK.md` for proven results
 
 ## 🚀 **Release Process**
 
@@ -229,17 +229,17 @@ We use semantic versioning with framework considerations:
 
 ## 📞 **Getting Help**
 
-- **Framework Documentation**: Check `session-continuity/00-CONTINUITY-INDEX.md` first
-- **Deployment Guide**: Review `session-continuity/DEPLOYMENT-GUIDE-OPTIMIZED.md`
-- **System Overview**: See `session-continuity/COMPLETE-SYSTEM-OVERVIEW.md`
+- **Framework Documentation**: Check `core/00-CONTINUITY-INDEX.md` first
+- **Deployment Guide**: Review `core/DEPLOYMENT-GUIDE-OPTIMIZED.md`
+- **System Overview**: See `core/COMPLETE-SYSTEM-OVERVIEW.md`
 - **Issues**: Search existing framework issues before creating new ones  
 - **AI Collaboration Questions**: Use GitHub Discussions for methodology questions
 
 ## 🏆 **Recognition**
 
 Contributors are recognized in:
-- `session-continuity/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md` for breakthrough contributions
-- `session-continuity/VALIDATION-FRAMEWORK.md` for validated improvements
+- `core/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md` for breakthrough contributions
+- `core/VALIDATION-FRAMEWORK.md` for validated improvements
 - README.md contributors section for framework enhancements
 - Special recognition for meta-collaboration intelligence advances
 
