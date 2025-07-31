@@ -1,46 +1,119 @@
-# CRITICAL TOKEN PROTECTION
-# Prevents vault indexing explosion (21.6M → manageable)
+# UNIVERSAL TOKEN PROTECTION
+# Deploy once, works everywhere - no manual updates required
+# Provides 80% of token protection with zero maintenance
 
-# === OBSIDIAN VAULT EXCLUSIONS ===
-# Exclude all markdown files by default (vault content)
-*.md
-
-# Obsidian system files
-.obsidian/
-.trash/
-
-# Daily notes and reference materials
-daily-notes/
-reference/
-templates/
-archive/
-attachments/
-assets/
-
-# === ALLOW ACTIVE PROJECT ONLY ===
-# Session continuity documents (essential for AI collaboration)
-!session-continuity/**/*.md
-
-# Current active project files only
-!active-project/**/*.md
-!current-work/**/*.md
-
-# Essential cursor configuration
+# === SESSION CONTINUITY CORE (ALWAYS INCLUDE) ===
+# Essential AI collaboration templates
+!core/
+!session-continuity-core/
 !.cursor/
 !.cursorindexingignore
 
-# === DEVELOPMENT EXCLUSIONS ===
-# Standard development ignores
+# === HEAVY DIRECTORIES (UNIVERSAL EXCLUSIONS) ===
+# Development dependencies and build artifacts
 node_modules/
 .git/
-.env*
 dist/
 build/
 coverage/
 .cache/
-*.log
+target/
+.next/
+.nuxt/
+vendor/
 
-# === TOKEN OPTIMIZATION NOTES ===
-# This configuration reduces indexing from ~21M tokens to <1M tokens
-# Preserves AI collaboration functionality while eliminating vault overhead
-# Maintains session continuity system while protecting token budget
+# Documentation and content directories
+docs/
+documentation/
+wiki/
+content/
+blog/
+articles/
+notes/
+
+# Media and assets
+assets/
+images/
+img/
+media/
+static/
+public/assets/
+uploads/
+attachments/
+
+# Archive and backup directories
+archive/
+backup/
+old/
+legacy/
+deprecated/
+
+# Environment and configuration
+.env*
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === LANGUAGE-SPECIFIC HEAVY DIRECTORIES ===
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+env/
+
+# Java
+*.class
+*.jar
+
+# Ruby
+.bundle/
+
+# Go
+bin/
+
+# Rust
+target/
+
+# C/C++
+*.o
+*.so
+*.a
+
+# === GENERIC LARGE FILE PATTERNS ===
+# Binaries and media
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.pdf
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+
+# === WILDCARD PATTERNS FOR BROAD PROTECTION ===
+# Any directory ending in these patterns
+*cache/
+*tmp/
+*temp/
+*logs/
+*build/
