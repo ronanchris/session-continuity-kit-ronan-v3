@@ -1,11 +1,11 @@
 ---
-description: "Smart model selection based on task complexity and cost optimization"
+description: "Smart model selection based on task complexity and cost optimization - Updated for Surgical 6-Template Architecture"
 alwaysApply: true
 ---
 
 ruleSet:
-  name: "ronan-smart-model-routing"
-  description: "Auto-selects the appropriate model based on content complexity and matching phrases. Optimized for Markdown files in Obsidian projects."
+  name: "ronan-smart-model-routing-surgical"
+  description: "Auto-selects the appropriate model based on content complexity and matching phrases. Optimized for surgical 6-template Session Continuity Core system."
   trigger:
     fileExtensions: [".md"]
 
@@ -34,6 +34,8 @@ ruleSet:
         - file.contains("final validation")
         - file.contains("project conclusion")
         - file.contains("major architectural choice")
+        - file.contains("surgical system overview")
+        - file.contains("complete deployment")
       then:
         - useModel: "claude-4-sonnet"
 
@@ -48,6 +50,12 @@ ruleSet:
         - file.contains("complex reasoning")
         - file.contains("AI interview")
         - file.contains("template customization")
+        - file.contains("surgical precision")
+        - file.contains("breakthrough capabilities")
+        - file.contains("recursive improvement")
+        - file.contains("session management core")
+        - file.contains("collaboration intelligence")
+        - file.contains("working relationship DNA")
       then:
         - useModel: "claude-3.7-sonnet"
 
@@ -61,6 +69,8 @@ ruleSet:
         - file.contains("standard debugging")
         - file.contains("first-pass analysis")
         - file.contains("data manipulation")
+        - file.contains("learning capture")
+        - file.contains("problem solving methods")
       then:
         - useModel: "claude-3.5-haiku"
 
@@ -74,6 +84,7 @@ ruleSet:
         - file.contains("basic question")
         - file.contains("YAML")
         - file.contains("file organization")
+        - file.contains("project requirements")
       then:
         - useModel: "cursor-small"
 
@@ -82,9 +93,11 @@ ruleSet:
       then:
         - useModel: "claude-3.5-haiku"
 
-# Notes:
+# Notes for Surgical System:
 # - Phrase matching is literal, case-sensitive.
 # - Only the first matched rule will apply.
-# - Cursor Indexing Ignore still limits visibility; this file operates only on accessible `.md` files.
+# - Cursor Indexing Ignore still limits visibility; this operates only on accessible `.md` files.
 # - Manual overrides are always allowed via chat: e.g., "Use Claude 4 for this."
-
+# - Updated content matching reflects surgical 6-template architecture
+# - Eliminated references to removed templates from 16-template system
+# - Optimized for breakthrough capabilities in consolidated templates
