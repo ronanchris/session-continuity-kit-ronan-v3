@@ -50,8 +50,18 @@ Please review this project with the following goals in mind:
   * All key strategic files with session metadata
   * Summaries that match the file's contents
   * Accurate filenames and linked-notes alignment
+  * Reference to `13-ACTIVE-SESSION-CONTEXT-OPTIMIZED.md` in Real-Time Context section
 
-**5. Prompt Library Coherence**
+**5. Active Session Context Validation**
+
+* Confirm `13-ACTIVE-SESSION-CONTEXT-OPTIMIZED.md` exists and includes:
+  * HTML customization trigger for guided setup
+  * Session lens integration (4-6 items max)
+  * Token optimization (<2KB target)
+  * Interruption recovery sections
+  * Tool state tracking capabilities
+
+**6. Prompt Library Coherence**
 
 * Scan `prompt-library/` and validate that all prompts:
 

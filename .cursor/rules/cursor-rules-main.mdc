@@ -24,7 +24,8 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 - Never modify files without explicit user confirmation
 - Create backups for critical configuration changes
 - Use session-continuity templates for consistent structure
-- Compress frequent-load documents to <5KB when possible
+- Use active session context (13-ACTIVE-SESSION-CONTEXT-OPTIMIZED.md) for real-time tracking
+- Compress frequent-load documents to <5KB when possible (active context <2KB)
 
 ### AI Collaboration Patterns
 - Leverage user's 25 years web experience - assume sophisticated understanding
@@ -44,6 +45,7 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 - Metadata management for workflow optimization
 - AI interview triggers (HTML comment blocks) for template customization
 - Session entrance prompts for context preservation
+- Active session context tracking for real-time micro-context preservation
 - Deviation tracking for learning from system changes
 
 ## 📊 TOKEN OPTIMIZATION

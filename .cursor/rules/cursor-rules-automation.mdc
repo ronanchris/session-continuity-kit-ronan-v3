@@ -20,6 +20,7 @@ When encountering HTML comment blocks in templates:
 - `<!-- PROJECT SETUP: Interview user about project specifics -->`
 - `<!-- TOOL INTEGRATION: Configure metadata management settings -->`
 - `<!-- SESSION ENTRANCE: Customize context preservation approach -->`
+- `<!-- ACTIVE CONTEXT: Configure real-time context tracking for interruption recovery -->`
 
 ## 📋 TEMPLATE AUTOMATION PROTOCOLS
 
@@ -28,6 +29,15 @@ When encountering HTML comment blocks in templates:
 - Prompt for working relationship DNA updates when patterns change
 - Suggest session entrance prompt refinements based on effectiveness
 - Identify implementation gaps: "If system were working, wouldn't X happen?"
+- Auto-update active session context during work interruptions
+- Preserve micro-decisions and tool states for seamless resumption
+
+### Active Session Context Automation
+- Auto-detect work interruptions (breaks, meetings, context switches)
+- Prompt for active context updates when resuming work
+- Track tool effectiveness and state changes in real-time
+- Preserve micro-decisions that affect implementation flow
+- Maintain focus item progression within session lens (4-6 max)
 
 ### Learning Moment Capture
 - Recognize breakthrough insights during collaboration
@@ -68,6 +78,8 @@ When encountering HTML comment blocks in templates:
 - Measure context compression effectiveness
 - Monitor token usage patterns per session type
 - Validate cost reduction metrics ($85 → $8-15 daily)
+- Verify active session context stays <2KB for frequent updates
+- Test interruption recovery effectiveness (90%+ context preservation)
 
 ### Implementation Gap Detection
 - Systematic identification of design vs. reality mismatches
