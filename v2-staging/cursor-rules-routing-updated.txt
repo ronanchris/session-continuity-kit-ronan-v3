@@ -1,0 +1,103 @@
+---
+description: "Smart model selection based on task complexity and cost optimization - Updated for Surgical 6-Template Architecture"
+alwaysApply: true
+---
+
+ruleSet:
+  name: "ronan-smart-model-routing-surgical"
+  description: "Auto-selects the appropriate model based on content complexity and matching phrases. Optimized for surgical 6-template Session Continuity Core system."
+  trigger:
+    fileExtensions: [".md"]
+
+  rules:
+    # 🔵 Strategic Importance Tier: Claude 3 Opus
+    - name: "Use Claude 3 Opus for high-priority context files"
+      if:
+        - file.yamlContains("context-priority: high")
+      then:
+        - useModel: "claude-3-opus"
+
+    # 🟣 Linked Notes Tier: Claude 3 Sonnet
+    - name: "Use Claude 3 Sonnet for well-structured notes"
+      if:
+        - file.yamlContains("linked-notes") 
+        - file.yamlContains("summary")
+      then:
+        - preferModel: "claude-3-sonnet"
+
+    # 🔴 Premium Tier: Claude 4 Sonnet
+    - name: "Use Claude 4 for final synthesis or critical architecture"
+      if:
+        - file.contains("final synthesis")
+        - file.contains("comprehensive conclusion")
+        - file.contains("critical decision")
+        - file.contains("final validation")
+        - file.contains("project conclusion")
+        - file.contains("major architectural choice")
+        - file.contains("surgical system overview")
+        - file.contains("complete deployment")
+      then:
+        - useModel: "claude-4-sonnet"
+
+    # 🟠 Advanced Tier: Claude 3.7 Sonnet
+    - name: "Use Claude 3.7 for continuity and framework development"
+      if:
+        - file.contains("session continuity")
+        - file.contains("meta-collaboration")
+        - file.contains("systematic approach")
+        - file.contains("implementation gap")
+        - file.contains("framework development")
+        - file.contains("complex reasoning")
+        - file.contains("AI interview")
+        - file.contains("template customization")
+        - file.contains("surgical precision")
+        - file.contains("breakthrough capabilities")
+        - file.contains("recursive improvement")
+        - file.contains("session management core")
+        - file.contains("collaboration intelligence")
+        - file.contains("working relationship DNA")
+      then:
+        - useModel: "claude-3.7-sonnet"
+
+    # 🟡 Efficient Tier: Claude 3.5 Haiku
+    - name: "Use Claude 3.5 for standard summaries and dev work"
+      if:
+        - file.contains("summary")
+        - file.contains("insight")
+        - file.contains("documentation")
+        - file.contains("file processing")
+        - file.contains("standard debugging")
+        - file.contains("first-pass analysis")
+        - file.contains("data manipulation")
+        - file.contains("learning capture")
+        - file.contains("problem solving methods")
+      then:
+        - useModel: "claude-3.5-haiku"
+
+    # 🟢 Economy Tier: Cursor Small
+    - name: "Use Cursor Small for routine or structural work"
+      if:
+        - file.contains("code completion")
+        - file.contains("syntax")
+        - file.contains("quick fix")
+        - file.contains("template structure")
+        - file.contains("basic question")
+        - file.contains("YAML")
+        - file.contains("file organization")
+        - file.contains("project requirements")
+      then:
+        - useModel: "cursor-small"
+
+    # 🟤 Default fallback for all other markdown files
+    - name: "Default to Claude 3.5 Haiku"
+      then:
+        - useModel: "claude-3.5-haiku"
+
+# Notes for Surgical System:
+# - Phrase matching is literal, case-sensitive.
+# - Only the first matched rule will apply.
+# - Cursor Indexing Ignore still limits visibility; this operates only on accessible `.md` files.
+# - Manual overrides are always allowed via chat: e.g., "Use Claude 4 for this."
+# - Updated content matching reflects surgical 6-template architecture
+# - Eliminated references to removed templates from 16-template system
+# - Optimized for breakthrough capabilities in consolidated templates
