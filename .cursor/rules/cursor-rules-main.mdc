@@ -8,7 +8,7 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 **CRITICAL**: Focus on 4-6 items max per session (67% efficiency gain validated)
 - Identify session priorities early
 - Compress context to essential elements only
-- Use session-continuity templates for context preservation
+- Use core/ templates for context preservation
 - Maintain working relationship DNA across sessions
 
 ## 🔧 DEVELOPMENT STANDARDS
@@ -23,9 +23,10 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 ### File Handling Protocols
 - Never modify files without explicit user confirmation
 - Create backups for critical configuration changes
-- Use session-continuity templates for consistent structure
-- Use active session context (13-ACTIVE-SESSION-CONTEXT-OPTIMIZED.md) for real-time tracking
-- Compress frequent-load documents to <5KB when possible (active context <2KB)
+- Use core/ templates for consistent structure  
+- SESSION-MANAGEMENT.md for real-time session tracking
+- AI-COLLABORATION-CORE.md for relationship DNA and meta-intelligence
+- Compress frequent-load documents to <5KB when possible
 
 ### AI Collaboration Patterns
 - Leverage user's 25 years web experience - assume sophisticated understanding
@@ -45,8 +46,8 @@ Advanced AI collaboration system optimized for token efficiency while preserving
 - Metadata management for workflow optimization
 - AI interview triggers (HTML comment blocks) for template customization
 - Session entrance prompts for context preservation
-- Active session context tracking for real-time micro-context preservation
-- Deviation tracking for learning from system changes
+- SESSION-MANAGEMENT.md for complete session handling
+- LEARNING-CAPTURE.md for breakthrough documentation
 
 ## 📊 TOKEN OPTIMIZATION
 - Vault indexing protection via .cursorindexingignore

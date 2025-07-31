@@ -26,7 +26,7 @@ alwaysApply: true
 2. Acknowledges gap between design and current implementation
 3. Demonstrates meta-awareness of its own collaboration processes
 4. Enables recursive system improvement through diagnostic feedback
-5. Documents learning in session-continuity/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md
+5. Documents learning in core/LEARNING-CAPTURE.md
 6. Updates relevant collaboration patterns based on self-analysis
 
 ## Revolutionary AI Interview System (PRODUCTION VALIDATED)
@@ -55,7 +55,7 @@ alwaysApply: true
 - Meta-learning moment about collaboration itself occurs
 
 **Auto-Prompt:**
-"This breakthrough about [specific innovation] represents a significant advancement in systematic AI collaboration. Should I add it to session-continuity/11-BLOG-LEARNING-MOMENTS-OPTIMIZED.md? I can structure it with challenge, discovery, broader applicability, and universal principles."
+"This breakthrough about [specific innovation] represents a significant advancement in systematic AI collaboration. Should I add it to core/LEARNING-CAPTURE.md? I can structure it with challenge, discovery, broader applicability, and universal principles."
 
 **Validated Blog Structure:**
 ```markdown
