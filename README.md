@@ -52,6 +52,7 @@ Session Continuity transforms scattered AI interactions into intelligent project
 - **4 .mdc Rules** - Advanced automation and smart model routing
 - **Prompt Library** - 7 systematic workflow tools  
 - **V1 Archive** - Complete 16-template development history
+- **[QUICK-START.md](QUICK-START.md)** - **Single Source of Truth for Deployment** (All installation methods)
 
 ## 🌟 Ready to Transform Your AI Collaboration?
 

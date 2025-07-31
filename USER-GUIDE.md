@@ -18,9 +18,7 @@
 **Objective**: Experience HTML trigger template customization
 
 ### **Quick Setup**
-```bash
-curl -o AI-COLLABORATION-CORE.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/AI-COLLABORATION-CORE.md
-```
+**Deployment**: See [QUICK-START.md](QUICK-START.md) for complete installation instructions
 
 ### **Experience HTML Triggers**
 1. **Open AI-COLLABORATION-CORE.md in Cursor**
@@ -40,10 +38,7 @@ curl -o AI-COLLABORATION-CORE.md https://raw.githubusercontent.com/ronanchris/se
 **Objective**: Master [session lens methodology](core/SESSION-MANAGEMENT.md#session-lens-focus) for 67% efficiency gains
 
 ### **Deploy Templates**
-```bash
-curl -o SESSION-MANAGEMENT.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/SESSION-MANAGEMENT.md
-curl -o PROJECT-REQUIREMENTS.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/PROJECT-REQUIREMENTS.md
-```
+**Deployment**: See [QUICK-START.md](QUICK-START.md) for complete template installation
 
 ### **Setup Process**
 1. **Open PROJECT-REQUIREMENTS.md** → Use HTML trigger for your project
@@ -63,13 +58,7 @@ curl -o PROJECT-REQUIREMENTS.md https://raw.githubusercontent.com/ronanchris/ses
 **Objective**: Experience [meta-collaboration intelligence](BREAKTHROUGH-ACHIEVEMENTS.md) and complete framework
 
 ### **Deploy Complete System**
-```bash
-mkdir -p core/
-# Get all 6 core templates
-for file in AI-COLLABORATION-CORE SESSION-MANAGEMENT PROJECT-REQUIREMENTS PROBLEM-SOLVING-METHODS LEARNING-CAPTURE SYSTEM-DEPLOYMENT; do
-  curl -o core/${file}.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/${file}.md
-done
-```
+**Deployment**: See [QUICK-START.md](QUICK-START.md#level-2-full-surgical-system-30-minutes) for complete system installation
 
 ### **Test Meta-Collaboration Intelligence**
 1. **Ask Cursor**: "How effectively are you executing the session continuity methodology?"
@@ -90,13 +79,7 @@ done
 **Objective**: Enterprise deployment and community contribution
 
 ### **Smart Model Routing**
-```bash
-mkdir -p .cursor/rules/
-# Get all 4 cursor rule files
-for file in cursor-rules-main cursor-rules-automation cursor-rules-advanced-automation ronan-smart-model-routing; do
-  curl -o .cursor/rules/${file}.mdc https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/.cursor/rules/${file}.mdc
-done
-```
+**Deployment**: See [QUICK-START.md](QUICK-START.md) for complete Cursor rules installation
 
 ### **Advanced Features**
 - **Cross-project deployment**: Scale across all projects with intelligence preservation

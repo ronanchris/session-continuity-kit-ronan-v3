@@ -26,38 +26,21 @@ Transform scattered AI interactions into intelligent, self-improving project par
 ## 🚀 **2-MINUTE DEPLOYMENT PROTOCOL**
 
 ### **Step 1: Foundation Setup** (30 seconds)
-```bash
-# Create project structure
-mkdir session-continuity-core
-cd session-continuity-core
+**Deployment Options**: 
+- For complete deployment instructions, see [QUICK-START.md](../QUICK-START.md)
+- Remote GitHub deployment recommended for most users
 
-# Copy token protection (CRITICAL - prevents vault explosion)
-cp /source/.cursorindexingignore .
-```
+**Key Deployment Methods**:
+1. **Remote Deployment**: One-command GitHub installation in [QUICK-START.md](../QUICK-START.md#complete-remote-deployment-alternative)
+2. **Local Copy Method**: Refer to [QUICK-START.md](../QUICK-START.md) for current best practices
+
 **Immediate Impact**: 21.6M → <1M tokens, prevents massive indexing overhead
 
 ### **Step 2: Core System Installation** (60 seconds)
-```bash
-# Copy cursor rules
-mkdir -p .cursor/rules/
-cp /source/.cursor/rules/*.mdc .cursor/rules/
-
-# Create core template directory
-mkdir session-continuity-core/
-```
-**Result**: Advanced automation, meta-collaboration intelligence, smart routing active
+**Note**: For the most up-to-date deployment commands, see [QUICK-START.md](../QUICK-START.md)
 
 ### **Step 3: Template Deployment** (30 seconds)
-```bash
-# Deploy 6 surgical templates
-cp /templates/AI-COLLABORATION-CORE.md session-continuity-core/
-cp /templates/PROJECT-REQUIREMENTS.md session-continuity-core/
-cp /templates/SESSION-MANAGEMENT.md session-continuity-core/
-cp /templates/PROBLEM-SOLVING-METHODS.md session-continuity-core/
-cp /templates/LEARNING-CAPTURE.md session-continuity-core/
-cp /templates/SYSTEM-DEPLOYMENT.md session-continuity-core/
-```
-**Achievement**: Complete systematic AI collaboration framework operational
+**Deployment Reference**: Complete deployment options available in [QUICK-START.md](../QUICK-START.md)
 
 ### **Step 4: Validation & Testing** (30 seconds)
 - [ ] Cursor recognizes new rules (restart if needed)
