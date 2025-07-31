@@ -11,19 +11,68 @@ summary: >
 ruleSet:
   name: "session-continuity-routing-template"
   description: >
-    Sample routing rule for projects using YAML metadata to elevate model choice.
-    Designed for continuity-aware workspaces in Cursor.
+    Advanced routing rules for Session Continuity System with Active Session Context support.
+    Optimized for meta-collaboration intelligence and real-time context tracking.
+  trigger:
+    fileExtensions: [".md"]
 
   rules:
+    # 🔵 Strategic Importance Tier: Claude 3 Opus  
     - name: "Use Claude 3 Opus for high-priority context files"
       if:
         - file.yamlContains("context-priority: high")
       then:
         - useModel: "claude-3-opus"
 
-    - name: "Use Claude 3 Sonnet for structured strategic notes"
+    # 🟣 Linked Notes Tier: Claude 3 Sonnet
+    - name: "Use Claude 3 Sonnet for well-structured notes"
       if:
         - file.yamlContains("linked-notes")
         - file.yamlContains("summary")
       then:
         - preferModel: "claude-3-sonnet"
+
+    # 🔴 Premium Tier: Claude 4 Sonnet
+    - name: "Use Claude 4 for final synthesis or critical architecture"
+      if:
+        - file.contains("final synthesis")
+        - file.contains("comprehensive conclusion")
+        - file.contains("critical decision")
+        - file.contains("major architectural choice")
+      then:
+        - useModel: "claude-4-sonnet"
+
+    # 🟠 Advanced Tier: Claude 3.7 Sonnet
+    - name: "Use Claude 3.7 for continuity and framework development"
+      if:
+        - file.contains("session continuity")
+        - file.contains("meta-collaboration")
+        - file.contains("active session context")
+        - file.contains("implementation gap")
+        - file.contains("AI interview")
+        - file.contains("interruption recovery")
+      then:
+        - useModel: "claude-3.7-sonnet"
+
+    # 🟡 Efficient Tier: Claude 3.5 Haiku
+    - name: "Use Claude 3.5 for standard summaries and dev work"
+      if:
+        - file.contains("summary")
+        - file.contains("documentation")
+        - file.contains("first-pass analysis")
+      then:
+        - useModel: "claude-3.5-haiku"
+
+    # 🟢 Economy Tier: Cursor Small
+    - name: "Use Cursor Small for routine work"
+      if:
+        - file.contains("template structure")
+        - file.contains("basic question")
+        - file.contains("file organization")
+      then:
+        - useModel: "cursor-small"
+
+    # 🟤 Default fallback
+    - name: "Default to Claude 3.5 Haiku"
+      then:
+        - useModel: "claude-3.5-haiku"
