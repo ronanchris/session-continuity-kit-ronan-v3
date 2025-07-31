@@ -80,6 +80,35 @@ curl -o core/SYSTEM-DEPLOYMENT.md https://raw.githubusercontent.com/ronanchris/s
 - Get enterprise-grade systematic framework for serious project work
 - Join community of practitioners using advanced AI collaboration
 
+### **Complete Remote Deployment (Alternative)**
+```bash
+# One-command deployment: All 11 essential files from GitHub
+mkdir -p core/ .cursor/rules/
+
+# Token protection (prevents vault explosion - 95% reduction)
+curl -o .cursorindexingignore https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/.cursorindexingignore
+
+# 6 surgical templates (meta-collaboration intelligence + HTML triggers)
+for file in AI-COLLABORATION-CORE SESSION-MANAGEMENT PROJECT-REQUIREMENTS PROBLEM-SOLVING-METHODS LEARNING-CAPTURE SYSTEM-DEPLOYMENT; do
+  curl -o core/${file}.md https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/core/${file}.md
+done
+
+# 4 cursor rules (advanced automation + smart routing)
+for file in cursor-rules-main cursor-rules-automation cursor-rules-advanced-automation ronan-smart-model-routing; do
+  curl -o .cursor/rules/${file}.mdc https://raw.githubusercontent.com/ronanchris/session-continuity-kit-ronan-v2/main/.cursor/rules/${file}.mdc
+done
+
+# CRITICAL: Restart Cursor to activate breakthrough capabilities
+```
+
+#### **Troubleshooting Remote Deployment**
+- **Corporate Firewall Issues?**
+  - If `curl` is blocked, manually download files from [GitHub Repository](https://github.com/ronanchris/session-continuity-kit-ronan-v2)
+  - Use browser download or `wget` as alternative
+  - Verify file integrity by comparing with repository contents
+- **Filename Conflicts**: Add `session-continuity-` prefix to existing cursor rule files
+- **Performance Impact**: This deployment reduces indexing overhead by 95%, enabling faster AI interactions
+
 ### **Level 3: Advanced Features** (1 hour)
 - Copy complete .cursor/rules/ system for smart model routing
 - Experience automatic AI model selection based on content complexity
