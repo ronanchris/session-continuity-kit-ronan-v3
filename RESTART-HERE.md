@@ -9,10 +9,7 @@ You are restarting the **V2 Surgical Core System** - revolutionary **6-template 
 ## ⭐ **BREAKTHROUGH CAPABILITIES OPERATIONAL**
 
 ### **Meta-Collaboration Intelligence** ✅ VALIDATED
-- **System monitors its own execution quality** and provides diagnostic feedback
-- **Implementation gap detection working as designed feature** (not bugs)
-- **Recursive improvement through self-analysis** and usage patterns
-- **Sophisticated self-diagnosis** when questioned about performance
+System monitors its own execution quality and provides diagnostic feedback for recursive improvement. See [BREAKTHROUGH-ACHIEVEMENTS.md](BREAKTHROUGH-ACHIEVEMENTS.md) for validation evidence.
 
 ### **Revolutionary AI Interview System** ✅ PRODUCTION READY  
 - **HTML comment triggers eliminate template intimidation** completely
@@ -27,10 +24,7 @@ You are restarting the **V2 Surgical Core System** - revolutionary **6-template 
 - **Session lens integration** maintaining 4-6 item focus methodology
 
 ### **Validated Performance Optimization** ✅ MEASURED
-- **21% performance improvement** confirmed (14s → 11s response time)
-- **95% token reduction** validated (21.6M → <1M tokens)
-- **Cost optimization proven** ($85/day → $8-15/day for heavy users)
-- **Real-world testing** completed on 1,000+ file production project
+21% performance improvement confirmed with real-world testing on 1,000+ file production project. See [BREAKTHROUGH-ACHIEVEMENTS.md](BREAKTHROUGH-ACHIEVEMENTS.md) for complete metrics.
 
 ## 📋 V2 Surgical Core Context-Critical Files
 
