@@ -21,11 +21,11 @@ git clone https://github.com/ronanchris/session-continuity-kit-ronan-v3.git
 cd session-continuity-kit-ronan-v3
 
 # Set up token protection
-cp cursorindexingignore.template .cursorindexingignore
+cp .cursorindexingignore.template .cursorindexingignore
 
 # Install meta-collaboration intelligence rules
 mkdir -p .cursor/rules
-cp cursor/rules/* .cursor/rules/
+cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc
 
 # Optional: Create a new branch for your customizations
 git checkout -b my-v3-deployment
@@ -45,7 +45,7 @@ git checkout -b my-v3-deployment
 **To activate V3 capabilities in Cursor/Windsurf:**
 1. Open the project in Cursor/Windsurf
 2. **IMPORTANT**: Restart Cursor to activate the rules
-3. Navigate to `session-continuity-core/00-PROJECT-REQUIREMENTS.md`
+3. Navigate to `core/00-PROJECT-REQUIREMENTS.md`
 4. The system will automatically detect HTML triggers and begin guided setup
 5. Follow the conversational prompts to customize for your specific needs
 
@@ -56,7 +56,7 @@ git checkout -b my-v3-deployment
 
 **One-line installation:**
 ```bash
-git clone https://github.com/ronanchris/session-continuity-kit-ronan-v3.git && cd session-continuity-kit-ronan-v3 && mkdir -p .cursor/rules && cp cursor/rules/* .cursor/rules/ && cp cursorindexingignore.template .cursorindexingignore && echo "V3 System Ready! Restart Cursor and navigate to session-continuity-core/00-PROJECT-REQUIREMENTS.md"
+git clone https://github.com/ronanchris/session-continuity-kit-ronan-v3.git && cd session-continuity-kit-ronan-v3 && mkdir -p .cursor/rules && cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc && cp .cursorindexingignore.template .cursorindexingignore && echo "V3 System Ready! Restart Cursor and navigate to core/00-PROJECT-REQUIREMENTS.md"
 ```
 
 ## 🎯 **COMMUNITY DEPLOYMENT SUCCESS**
@@ -75,11 +75,11 @@ git clone https://github.com/ronanchris/session-continuity-kit-ronan-v3.git && c
 cat .cursorindexingignore
 
 # Test HTML trigger recognition
-grep -r "AI CUSTOMIZATION TRIGGER" session-continuity-core/
+grep -r "AI CUSTOMIZATION TRIGGER" core/
 ```
 
 **For advanced customization:**
-Review `session-continuity-core/05-SYSTEM-DEPLOYMENT.md` for enterprise-grade deployment options.
+Review `core/05-SYSTEM-DEPLOYMENT.md` for enterprise-grade deployment options.
 
 ---
 

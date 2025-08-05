@@ -25,7 +25,7 @@ cp cursorindexingignore.template .cursorindexingignore
 
 # 2. Core System (2m)  
 cp -r session-continuity-core/ ./
-cp -r cursor-rules/ .cursor/rules/
+cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc
 
 # 3. Validate (2m)
 # Open any template → HTML triggers should launch guided conversations
@@ -37,6 +37,32 @@ cp -r cursor-rules/ .cursor/rules/
 - ✅ **Token protection active** - Dramatic cost reduction from vault explosion prevention
 - ✅ **Smart routing operational** - Different AI models for different work complexity
 - ✅ **Meta-collaboration responding** - System can analyze its own execution quality
+
+## 📁 **V3 Architecture Overview**
+
+**Clear Separation: Documentation vs. Functional Rules**
+
+### **📋 Documentation Files** (`cursor/rules/*.md`)
+**Purpose**: Strategy explanation and methodology documentation
+- `cursor-rules-main.md` - Core principles and collaboration patterns
+- `cursor-rules-automation.md` - HTML triggers and session lens methodology  
+- `cursor-rules-advanced-automation.md` - Meta-collaboration intelligence theory
+- `ronan-smart-model-routing.md` - Cost optimization strategy explanation
+
+**Important**: These are pure documentation files and should NOT be deployed as functional rules.
+
+### **⚙️ Functional Rules** (`starter-kit/cursor-rules.template.mdc`)
+**Purpose**: Single source of truth for all functional Cursor rules
+- Contains actual smart model routing logic
+- Includes meta-collaboration intelligence triggers
+- Gets deployed as `.cursor/rules/session-continuity-v3.mdc`
+- **This is the ONLY file that should be installed for functionality**
+
+### **Why This Architecture?**
+- **No confusion** about which files to deploy
+- **Single source of truth** for functional rules
+- **Clear documentation** separate from implementation
+- **Prevents deployment errors** that break smart routing
 
 ## 🎯 V3 Surgical Core Architecture
 

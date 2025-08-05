@@ -1,6 +1,8 @@
 ---
-description: "V3 surgical AI collaboration system with session lens protocol and meta-collaboration intelligence"
-alwaysApply: true
+title: "V3 Cursor Rules - Surgical Core System"
+description: "V3 surgical AI collaboration system documentation - core principles and methodology"
+type: "documentation"
+functional-implementation: "starter-kit/cursor-rules.template.mdc"
 ---
 
 # V3 Cursor Rules - Surgical Core System

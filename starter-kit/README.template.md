@@ -80,9 +80,15 @@ Breaking out of standard AI interfaces into tools like Cursor gives you massive 
 
 1. **Copy** `cursorindexingignore.template` → `.cursorindexingignore` (instant token protection)
 2. **Deploy** 6-template surgical core → `session-continuity-core/`
-3. **Install** cursor rules → `.cursor/rules/` (4 files)
+3. **Install** functional cursor rules → `.cursor/rules/session-continuity-v3.mdc` (1 file)
 4. **Test** HTML triggers → Confirm guided customization works
 5. **Validate** performance → Monitor for 21% improvement baseline
+
+### **📁 Architecture: Documentation vs. Functional Rules**
+
+**IMPORTANT**: The `cursor/rules/*.md` files are DOCUMENTATION ONLY and should NOT be deployed as functional rules.
+
+**Functional Implementation**: Only `starter-kit/cursor-rules.template.mdc` contains the actual working rules and should be deployed as `session-continuity-v3.mdc`.
 
 ## 🧰 **Complete V3 Architecture**
 

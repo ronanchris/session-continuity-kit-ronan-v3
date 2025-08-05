@@ -17,7 +17,7 @@ cp cursorindexingignore.template .cursorindexingignore
 cp -r session-continuity-core/ ./
 
 # Cursor rules
-cp cursor-rules/* .cursor/rules/
+cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc
 ```
 
 ### **2. Test Breakthrough Capabilities** (2 minutes)

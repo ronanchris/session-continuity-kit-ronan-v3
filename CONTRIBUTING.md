@@ -26,7 +26,7 @@ cd session-continuity-v3
 
 # 2. Test V3 surgical core (2 minutes)
 cp -r session-continuity-core/ ./
-cp cursor-rules/* .cursor/rules/
+cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc
 
 # 3. Validate breakthrough capabilities (1 minute)
 # Test HTML triggers, verify meta-collaboration intelligence

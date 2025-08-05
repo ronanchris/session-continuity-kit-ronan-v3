@@ -1,6 +1,8 @@
 ---
-description: "V3 meta-collaboration intelligence with self-monitoring and recursive improvement"
-alwaysApply: true
+title: "V3 Advanced Automation - Meta-Collaboration Intelligence"
+description: "V3 meta-collaboration intelligence documentation - self-monitoring and recursive improvement"
+type: "documentation"
+functional-implementation: "starter-kit/cursor-rules.template.mdc"
 ---
 
 # V3 Advanced Automation - Meta-Collaboration Intelligence

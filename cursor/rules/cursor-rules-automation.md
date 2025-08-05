@@ -1,6 +1,8 @@
 ---
-description: "V3 surgical automation for HTML triggers and session lens methodology"
-alwaysApply: true
+title: "V3 Cursor Automation - Surgical Precision"
+description: "V3 automation documentation - HTML triggers and session lens methodology"
+type: "documentation"
+functional-implementation: "starter-kit/cursor-rules.template.mdc"
 ---
 
 # V3 Cursor Automation - Surgical Precision

@@ -39,7 +39,7 @@ cp -r session-continuity-core/ ./
 ### **Step 3: Cursor Rules** (1 minute)
 ```bash
 # Install advanced collaboration rules
-cp cursor-rules/* .cursor/rules/
+cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc
 ```
 **Enables**: Meta-collaboration intelligence, HTML triggers, smart model routing
 

@@ -1,6 +1,8 @@
 ---
-description: "V3 smart model routing for cost optimization and performance improvement"
-alwaysApply: true
+title: "V3 Smart Model Routing - Performance Optimization"
+description: "V3 smart model routing documentation - cost optimization strategy and implementation guide"
+type: "documentation"
+functional-implementation: "starter-kit/cursor-rules.template.mdc"
 ---
 
 # V3 Smart Model Routing - Performance Optimization
@@ -11,71 +13,48 @@ alwaysApply: true
 
 **Surgical Principle**: Right model for the right task - maximum value with precision cost control.
 
-## 🚀 **INTELLIGENT ROUTING SYSTEM**
+## 🚀 **INTELLIGENT ROUTING STRATEGY**
 
-**Automatic Model Selection** based on task complexity and V3 surgical core requirements:
+**Functional Implementation**: The actual routing rules are implemented in `starter-kit/cursor-rules.template.mdc` which gets deployed as `session-continuity-v3.mdc` during system installation.
 
-```yaml
-ruleSet:
-  name: "v3-surgical-routing"
-  description: "Cost-optimized model selection for 6-template Session Continuity Core"
-  
-  rules:
-    # 🔵 HIGH-PRIORITY: V3 Core Templates
-    - name: "Premium models for high-priority context"
-      if:
-        - file.yamlContains("context-priority: high")
-        - file.contains("meta-collaboration")
-        - file.contains("session-continuity-core")
-      then:
-        - useModel: "claude-3-opus"
+**Strategic Model Selection Philosophy** based on task complexity and V3 surgical core requirements:
 
-    # 🟠 STRATEGIC: Framework Development  
-    - name: "Advanced models for V3 system development"
-      if:
-        - file.contains("systematic approach")
-        - file.contains("framework development") 
-        - file.contains("breakthrough achievements")
-        - file.contains("surgical system")
-      then:
-        - useModel: "claude-3.7-sonnet"
+### **🔴 Premium Tier: Claude 4 Sonnet**
+**Critical V3 Core Files** requiring highest sophistication:
+- `01-AI-COLLABORATION-CORE.md` - Meta-collaboration intelligence
+- `05-SYSTEM-DEPLOYMENT.md` - Complete system deployment
+- Files containing "recursive improvement" and "implementation gap detection"
 
-    # 🔴 CRITICAL: Architectural Decisions
-    - name: "Top-tier for critical V3 architecture"
-      if:
-        - file.contains("final synthesis")
-        - file.contains("critical decision")
-        - file.contains("complete deployment")
-        - file.contains("surgical system overview")
-      then:
-        - useModel: "claude-4-sonnet"
+### **🟠 Advanced Tier: Claude 3.7 Sonnet** 
+**V3 Session & Problem-Solving** requiring strategic thinking:
+- `02-SESSION-MANAGEMENT.md` - Session lens methodology
+- `03-PROBLEM-SOLVING-METHODS.md` - Surgical approaches
+- Files with "active session context" and "interruption recovery"
 
-    # 🟡 EFFICIENT: Standard V3 Work
-    - name: "Cost-optimized for routine tasks"
-      if:
-        - file.contains("compression")
-        - file.contains("documentation")
-        - file.contains("surgical precision")
-        - file.contains("editing")
-      then:
-        - useModel: "claude-3.5-haiku"
+### **🔵 Strategic Tier: Claude 3 Opus**
+**High-Priority Context** marked with `context-priority: high` in YAML frontmatter
 
-    # 🟢 ECONOMY: Basic Structure
-    - name: "Minimal cost for simple tasks"
-      if:
-        - file.contains("template structure")
-        - file.contains("file organization") 
-        - file.contains("basic question")
-      then:
-        - useModel: "cursor-small"
+### **🟣 Project Management Tier: Claude 3 Sonnet**
+**Requirements & Learning** for structured planning:
+- `00-PROJECT-REQUIREMENTS.md` - HTML trigger foundation
+- `04-LEARNING-CAPTURE.md` - Breakthrough documentation
 
-    # 🟤 DEFAULT: Balanced Performance
-    - name: "Default cost-optimized selection"
-      then:
-        - useModel: "claude-3.5-haiku"
-```
+### **🟡 Efficient Tier: Claude 3.5 Haiku**
+**Standard Documentation** and routine analysis work
+
+### **🟢 Economy Tier: Cursor Small**
+**Basic Structure** for template organization and YAML editing
+
+### **🟤 Default Fallback: Claude 3.5 Haiku**
+**Balanced Performance** for general markdown work
 
 ## 📊 **V3 PERFORMANCE OPTIMIZATION**
+
+**Routing Implementation Details**:
+- **Functional Rules**: Located in `starter-kit/cursor-rules.template.mdc`
+- **Installation Target**: Deployed as `.cursor/rules/session-continuity-v3.mdc`
+- **Trigger System**: Activates on `.md` file extensions with specific content patterns
+- **Override Capability**: Manual model selection always available via chat commands
 
 **Validated Cost Reduction**:
 - **Smart routing** prevents expensive model usage for simple tasks

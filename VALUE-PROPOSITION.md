@@ -51,7 +51,7 @@ cp cursorindexingignore.template .cursorindexingignore
 cp -r session-continuity-core/ ./
 
 # 3. Cursor Rules (1 minute)
-cp cursor-rules/* .cursor/rules/
+cp starter-kit/cursor-rules.template.mdc .cursor/rules/session-continuity-v3.mdc
 
 # 4. Validation (1 minute)
 # Restart Cursor, test HTML triggers, verify session lens
