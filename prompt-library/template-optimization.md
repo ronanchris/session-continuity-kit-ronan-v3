@@ -1,61 +1,71 @@
 ---
-title: Strategic File Metadata Consistency Check - Surgical System
+title: V3 Template Optimization - Revolutionary HTML Triggers
 tags:
-  - continuity
-  - metadata
-  - session-awareness
-  - yaml
-  - surgical-architecture
-purpose: Verify and apply session continuity metadata to strategic project files in the surgical 6-template system
+  - v3-templates
+  - html-triggers
+  - guided-customization
+  - revolutionary-ux
+purpose: Optimize V3 templates with HTML triggers for revolutionary guided customization experience
 ---
 
-# 📄 Prompt: Continuity Metadata Check - Surgical System
+# 🚀 V3 Template Optimization - Revolutionary Experience
 
-## ✨ Purpose
-This prompt helps Cursor check whether strategic files in a project contain the necessary session continuity metadata for the surgical 6-template Session Continuity Core system: `session-id`, `linked-notes`, `summary`, and `context-priority`.
+## 🎯 **V3 PURPOSE**
+Optimize V3 6-template surgical core with HTML triggers enabling revolutionary guided customization that eliminates template intimidation for advanced practitioners.
 
-## 🧠 Prompt
+## 🧠 **V3 TEMPLATE OPTIMIZATION PROMPT**
 
-Please scan this project for Markdown files that show signs of strategic reasoning, reusable frameworks, or cross-session references compatible with the surgical Session Continuity Core architecture.
+**Scan session-continuity-core/ templates for HTML trigger enhancement opportunities:**
 
-**Focus on the 6-template surgical system**:
-- `AI-COLLABORATION-CORE.md` - Should have `context-priority: high` for meta-collaboration intelligence
-- `SESSION-MANAGEMENT.md` - Should have `context-priority: high` for session lens methodology  
-- `PROJECT-REQUIREMENTS.md` - Should have HTML customization triggers
-- `PROBLEM-SOLVING-METHODS.md` - Should have systematic methodology preservation
-- `LEARNING-CAPTURE.md` - Should have breakthrough documentation capabilities
-- `SYSTEM-DEPLOYMENT.md` - Should have complete deployment and validation guidance
+**V3 6-Template HTML Trigger Integration:**
+- **00-PROJECT-REQUIREMENTS.md** - Project setup interview triggers
+- **01-AI-COLLABORATION-CORE.md** - Working relationship customization triggers  
+- **02-SESSION-MANAGEMENT.md** - Session lens methodology setup triggers
+- **03-PROBLEM-SOLVING-METHODS.md** - Problem-solving approach customization triggers
+- **04-LEARNING-CAPTURE.md** - Learning documentation setup triggers
+- **05-SYSTEM-DEPLOYMENT.md** - Deployment customization triggers
 
-For each qualifying file in the surgical system, ensure this YAML frontmatter exists:
-
-```yaml
----
-session-id: <human-readable-ID>
-linked-notes:
-  - <related files from 6-template system>
-context-priority: high
-summary: >
-  <1–3 sentence summary of this file's role in the surgical continuity system>
----
+**Revolutionary HTML Trigger Patterns:**
+```html
+<!-- AI CUSTOMIZATION TRIGGER: Interview user about project goals and technical stack -->
+<!-- AI CUSTOMIZATION TRIGGER: Configure working relationship and communication preferences -->
+<!-- AI CUSTOMIZATION TRIGGER: Set up session lens focus methodology for maximum efficiency -->
+<!-- AI CUSTOMIZATION TRIGGER: Customize problem-solving approaches for systematic usage -->
+<!-- AI CUSTOMIZATION TRIGGER: Configure learning capture and breakthrough documentation -->
+<!-- AI CUSTOMIZATION TRIGGER: Guide deployment setup with validation and optimization -->
 ```
 
-**Priority validation for surgical architecture**:
-- All 6 core templates should have proper metadata
-- Linked-notes should reference only existing templates in the surgical system
-- Context-priority should reflect importance in the 6-template hierarchy
-- Summary should describe role in surgical precision architecture
+**Template Enhancement Protocol:**
+1. **Add guided interview triggers** - Transform static templates into conversational setup
+2. **Preserve enterprise sophistication** - Advanced capabilities through surgical simplicity
+3. **Enable zero intimidation** - Community-ready deployment without overwhelming complexity
+4. **Support systematic customization** - Advanced practitioner workflow optimization
 
-**Do NOT reference eliminated templates**:
-- ❌ 13-ACTIVE-SESSION-CONTEXT-OPTIMIZED.md (eliminated)
-- ❌ Separate session planning/state/entrance files (consolidated)
-- ❌ Separate collaboration/DNA files (consolidated)
-- ❌ Templates eliminated in surgical consolidation
+## 🎯 **V3 GUIDED CUSTOMIZATION FRAMEWORK**
 
-Only apply metadata to files that evolve, link to others, or guide strategy within the surgical 6-template system. Skip static files, checklists, or rules that don't participate in the strategic session continuity framework.
+**Revolutionary Template Experience:**
+- **Interview-style setup** - Complex configuration becomes natural conversation
+- **Systematic question sequences** - Proven customization patterns for advanced practitioners
+- **Template personalization** - Preserve structure while enabling systematic customization
+- **Enterprise quality maintenance** - Sophisticated capabilities without deployment barriers
 
-## 📦 Tags
-- continuity
-- metadata
-- session-awareness
-- yaml
-- surgical-architecture
+**HTML Trigger Optimization:**
+- **Clear trigger recognition** - AI systems immediately launch guided customization
+- **Specific guidance provision** - Each trigger contains precise customization direction
+- **Template accessibility** - Works with or without AI for community deployment
+- **Systematic enhancement** - Progressive customization supporting advanced practitioner workflows
+
+## ✅ **V3 TEMPLATE OPTIMIZATION VALIDATION**
+
+**Essential Success Metrics:**
+- [ ] **HTML triggers functional** - All 6 templates contain guided customization triggers
+- [ ] **Revolutionary UX operational** - Templates launch interview-style setup when accessed
+- [ ] **Zero intimidation achieved** - Community-ready deployment without complexity barriers
+- [ ] **Enterprise sophistication preserved** - Advanced capabilities through surgical simplicity
+- [ ] **Advanced practitioner optimized** - Systematic customization supporting sophisticated workflows
+
+**Success Indicator**: V3 6-template surgical core delivers revolutionary template experience with guided customization eliminating setup complexity for advanced practitioners.
+
+---
+
+**V3 Template Achievement**: Revolutionary guided customization delivering enterprise sophistication through surgical simplicity for community adoption.

@@ -2,77 +2,92 @@
 session-id: cursor-routing-rules
 context-priority: high
 linked-notes: 
-  - 00-CONTINUITY-INDEX.template.md
   - README.template.md
 summary: >
-  Template for smart model routing rules in Cursor, using YAML metadata to dynamically select AI models based on file context and priority.
+  V3 smart model routing rules for Cursor, optimized for the 6-template surgical core system with meta-collaboration intelligence and performance optimization.
 ---
 
 ruleSet:
-  name: "session-continuity-routing-template"
+  name: "session-continuity-v3-routing"
   description: >
-    Advanced routing rules for Session Continuity System with Active Session Context support.
-    Optimized for meta-collaboration intelligence and real-time context tracking.
+    Advanced routing rules for Session Continuity V3 - 6-template surgical core system.
+    Optimized for meta-collaboration intelligence, surgical simplicity, and advanced practitioner workflows.
   trigger:
     fileExtensions: [".md"]
 
   rules:
-    # 🔵 Strategic Importance Tier: Claude 3 Opus  
+    # 🔴 Premium Tier: Claude 4 Sonnet - Critical V3 Core Files
+    - name: "Use Claude 4 for AI collaboration core and system deployment"
+      if:
+        - file.contains("01-AI-COLLABORATION-CORE")
+        - file.contains("05-SYSTEM-DEPLOYMENT")
+        - file.contains("meta-collaboration intelligence")
+        - file.contains("recursive improvement")
+        - file.contains("implementation gap detection")
+      then:
+        - useModel: "claude-4-sonnet"
+
+    # 🟠 Advanced Tier: Claude 3.7 Sonnet - V3 Session & Problem-Solving
+    - name: "Use Claude 3.7 for session management and problem-solving methods"
+      if:
+        - file.contains("02-SESSION-MANAGEMENT")
+        - file.contains("03-PROBLEM-SOLVING-METHODS")
+        - file.contains("session lens")
+        - file.contains("surgical approach")
+        - file.contains("active session context")
+        - file.contains("interruption recovery")
+        - file.contains("implementation gap")
+      then:
+        - useModel: "claude-3.7-sonnet"
+
+    # 🔵 Strategic Importance Tier: Claude 3 Opus - High Priority Context
     - name: "Use Claude 3 Opus for high-priority context files"
       if:
         - file.yamlContains("context-priority: high")
       then:
         - useModel: "claude-3-opus"
 
-    # 🟣 Linked Notes Tier: Claude 3 Sonnet
-    - name: "Use Claude 3 Sonnet for well-structured notes"
+    # 🟣 Project Management Tier: Claude 3 Sonnet - Requirements & Learning
+    - name: "Use Claude 3 Sonnet for project requirements and learning capture"
       if:
+        - file.contains("00-PROJECT-REQUIREMENTS")
+        - file.contains("04-LEARNING-CAPTURE")
         - file.yamlContains("linked-notes")
         - file.yamlContains("summary")
+        - file.contains("breakthrough documentation")
+        - file.contains("HTML trigger")
       then:
         - preferModel: "claude-3-sonnet"
 
-    # 🔴 Premium Tier: Claude 4 Sonnet
-    - name: "Use Claude 4 for final synthesis or critical architecture"
-      if:
-        - file.contains("final synthesis")
-        - file.contains("comprehensive conclusion")
-        - file.contains("critical decision")
-        - file.contains("major architectural choice")
-      then:
-        - useModel: "claude-4-sonnet"
-
-    # 🟠 Advanced Tier: Claude 3.7 Sonnet
-    - name: "Use Claude 3.7 for continuity and framework development"
-      if:
-        - file.contains("session continuity")
-        - file.contains("meta-collaboration")
-        - file.contains("active session context")
-        - file.contains("implementation gap")
-        - file.contains("AI interview")
-        - file.contains("interruption recovery")
-      then:
-        - useModel: "claude-3.7-sonnet"
-
-    # 🟡 Efficient Tier: Claude 3.5 Haiku
-    - name: "Use Claude 3.5 for standard summaries and dev work"
+    # 🟡 Efficient Tier: Claude 3.5 Haiku - Documentation & Analysis
+    - name: "Use Claude 3.5 for standard documentation and analysis"
       if:
         - file.contains("summary")
         - file.contains("documentation")
         - file.contains("first-pass analysis")
+        - file.contains("template optimization")
+        - file.contains("quick-start")
       then:
         - useModel: "claude-3.5-haiku"
 
-    # 🟢 Economy Tier: Cursor Small
-    - name: "Use Cursor Small for routine work"
+    # 🟢 Economy Tier: Cursor Small - Routine Structure Work
+    - name: "Use Cursor Small for routine template and organizational work"
       if:
         - file.contains("template structure")
         - file.contains("basic question")
         - file.contains("file organization")
+        - file.contains("YAML")
+        - file.contains("routing rules")
       then:
         - useModel: "cursor-small"
 
-    # 🟤 Default fallback
-    - name: "Default to Claude 3.5 Haiku"
+    # 🟤 Default fallback for all other markdown files
+    - name: "Default to Claude 3.5 Haiku for general markdown work"
       then:
         - useModel: "claude-3.5-haiku"
+
+# Notes:
+# - Phrase matching is literal, case-sensitive.
+# - Only the first matched rule will apply.
+# - Prioritizes V3's 6-template surgical core files for advanced models.
+# - Manual overrides are always allowed via chat: e.g., "Use Claude 4 for this."
